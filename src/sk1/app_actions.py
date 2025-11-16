@@ -290,7 +290,7 @@ def create_actions(app):
         (pdids.ID_TOOL_OBJBROWSER, proxy.stub),
         # ------ Help menu -------
         (pdids.ID_REPORT_BUG, proxy.open_url, [], None, None,
-         ('https://github.com/sk1project/sk1-wx/issues',)),
+         ('https://github.com/sk1-project/sk1-wx/issues',)),
         (pdids.ID_CONSOLE, proxy.show_console),
         (pdids.ID_APP_WEBSITE, proxy.open_url, [], None, None,
          ('https://sk1project.net',)),

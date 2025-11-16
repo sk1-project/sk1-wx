@@ -53,7 +53,7 @@ if not os.path.exists('./utils'):
         if not os.path.exists('./subproj/build-utils/src/utils'):
             if not os.path.exists('./subproj'):
                 os.makedirs('./subproj')
-            os.system('git clone https://github.com/sk1project/build-utils '
+            os.system('git clone https://github.com/sk1-project/build-utils '
                       'subproj/build-utils')
         os.system('ln -s ./subproj/build-utils/src/utils utils')
     CLEAR_UTILS = True
@@ -67,7 +67,7 @@ if not os.path.exists('./src/uc2'):
         if not os.path.exists('./subproj/uniconvertor/src/uc2'):
             if not os.path.exists('./subproj'):
                 os.makedirs('./subproj')
-            os.system('git clone https://github.com/sk1project/uniconvertor '
+            os.system('git clone https://github.com/sk1-project/uniconvertor '
                       'subproj/uniconvertor')
         os.system('ln -s ../subproj/uniconvertor/src/uc2 src/uc2')
     CLEAR_UC2 = True
@@ -81,7 +81,7 @@ if not os.path.exists('./src/wal'):
         if not os.path.exists('./subproj/wal/src/wal'):
             if not os.path.exists('./subproj'):
                 os.makedirs('./subproj')
-            os.system('git clone https://github.com/sk1project/wal '
+            os.system('git clone https://github.com/sk1-project/wal '
                       'subproj/wal')
         os.system('ln -s ../subproj/wal/src/wal src/wal')
     CLEAR_WAL = True

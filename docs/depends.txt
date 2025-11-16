@@ -1,5 +1,5 @@
 Project depends on subprojects:
 
-build-utils   https://github.com/sk1project/build-utils
-uniconvertor  https://github.com/sk1project/uniconvertor
-wal           https://github.com/sk1project/wal
+build-utils   https://github.com/sk1-project/build-utils
+uniconvertor  https://github.com/sk1-project/uniconvertor
+wal           https://github.com/sk1-project/wal
