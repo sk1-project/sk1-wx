@@ -1,0 +1,645 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 2.7.18, pytest-4.6.11, py-1.11.0, pluggy-0.13.1 -- /Users/albert/.pyenv/versions/2.7.18/bin/python2.7
+cachedir: .pytest_cache
+rootdir: /Users/albert/PycharmProjects/sk1-wx
+[1mcollecting ... [0mcollected 226 items / 9 deselected / 217 selected
+
+tests/smoke/test_01_imports.py::test_python_version [32mPASSED[0m[36m               [  0%][0m
+tests/smoke/test_01_imports.py::test_import_uc2 [32mPASSED[0m[36m                   [  0%][0m
+tests/smoke/test_01_imports.py::test_import_uc2_submodules [32mPASSED[0m[36m        [  1%][0m
+tests/smoke/test_01_imports.py::test_import_uc2_formats [32mPASSED[0m[36m           [  1%][0m
+tests/smoke/test_01_imports.py::test_import_uc2_format_handlers [31mFAILED[0m[36m   [  2%][0m
+tests/smoke/test_01_imports.py::test_import_sk1 [32mPASSED[0m[36m                   [  2%][0m
+tests/smoke/test_01_imports.py::test_import_sk1_submodules [32mPASSED[0m[36m        [  3%][0m
+tests/smoke/test_01_imports.py::test_import_sk1_document [31mFAILED[0m[36m          [  3%][0m
+tests/smoke/test_01_imports.py::test_import_wal [33mSKIPPED[0m[36m                  [  4%][0m
+tests/smoke/test_01_imports.py::test_import_uc2_constants [32mPASSED[0m[36m         [  4%][0m
+tests/smoke/test_01_imports.py::test_uc2_version [31mFAILED[0m[36m                  [  5%][0m
+tests/smoke/test_01_imports.py::test_import_translation_modules [32mPASSED[0m[36m   [  5%][0m
+tests/smoke/test_01_imports.py::test_import_sk2_presenter [32mPASSED[0m[36m         [  5%][0m
+tests/smoke/test_01_imports.py::test_import_sk2_model [31mFAILED[0m[36m             [  6%][0m
+tests/smoke/test_01_imports.py::test_import_cms_module [32mPASSED[0m[36m            [  6%][0m
+tests/smoke/test_02_native_extensions.py::test_cms_native_extension [31mFAILED[0m[36m [  7%][0m
+tests/smoke/test_02_native_extensions.py::test_libcairo_native_extension [31mFAILED[0m[36m [  7%][0m
+tests/smoke/test_02_native_extensions.py::test_libpango_native_extension [32mPASSED[0m[36m [  8%][0m
+tests/smoke/test_02_native_extensions.py::test_libimg_native_extension [31mFAILED[0m[36m [  8%][0m
+tests/smoke/test_02_native_extensions.py::test_cms_basic_functionality [31mFAILED[0m[36m [  9%][0m
+tests/smoke/test_02_native_extensions.py::test_libcairo_basic_functionality [31mFAILED[0m[36m [  9%][0m
+tests/smoke/test_02_native_extensions.py::test_libpango_version [32mPASSED[0m[36m   [ 10%][0m
+tests/smoke/test_02_native_extensions.py::test_libimg_version [32mPASSED[0m[36m     [ 10%][0m
+tests/smoke/test_02_native_extensions.py::test_all_native_extensions_summary [32mPASSED[0m[36m [ 11%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_exists [33mSKIPPED[0m[36m        [ 11%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_help [33mSKIPPED[0m[36m          [ 11%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_show_config [33mSKIPPED[0m[36m   [ 12%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_package_dir [33mSKIPPED[0m[36m   [ 12%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_version [33mSKIPPED[0m[36m       [ 13%][0m
+tests/smoke/test_03_cli_help.py::test_sk1_exists [32mPASSED[0m[36m                  [ 13%][0m
+tests/smoke/test_03_cli_help.py::test_uniconvertor_no_args_behavior [33mSKIPPED[0m[36m [ 14%][0m
+tests/smoke/test_03_cli_help.py::test_uc2_module_direct_call [32mPASSED[0m[36m      [ 14%][0m
+tests/smoke/test_03_cli_help.py::test_sk1_module_direct_call [32mPASSED[0m[36m      [ 15%][0m
+tests/smoke/test_04_uc2_api.py::test_uc2_init [32mPASSED[0m[36m                     [ 15%][0m
+tests/smoke/test_04_uc2_api.py::test_uc2_app_has_appdata [32mPASSED[0m[36m          [ 16%][0m
+tests/smoke/test_04_uc2_api.py::test_uc2_appdata_attributes [32mPASSED[0m[36m       [ 16%][0m
+tests/smoke/test_04_uc2_api.py::test_uc2_app_config [32mPASSED[0m[36m               [ 17%][0m
+tests/smoke/test_04_uc2_api.py::test_get_loader_function [32mPASSED[0m[36m          [ 17%][0m
+tests/smoke/test_04_uc2_api.py::test_get_saver_function [32mPASSED[0m[36m           [ 17%][0m
+tests/smoke/test_04_uc2_api.py::test_get_loader_by_id [32mPASSED[0m[36m             [ 18%][0m
+tests/smoke/test_04_uc2_api.py::test_get_saver_by_id [32mPASSED[0m[36m              [ 18%][0m
+tests/smoke/test_04_uc2_api.py::test_format_detection_sk2 [31mFAILED[0m[36m         [ 19%][0m
+tests/smoke/test_04_uc2_api.py::test_format_detection_svg [31mFAILED[0m[36m         [ 19%][0m
+tests/smoke/test_04_uc2_api.py::test_format_detection_pdf [31mFAILED[0m[36m         [ 20%][0m
+tests/smoke/test_04_uc2_api.py::test_sk2_presenter_import [32mPASSED[0m[36m         [ 20%][0m
+tests/smoke/test_04_uc2_api.py::test_create_sk2_presenter [32mPASSED[0m[36m         [ 21%][0m
+tests/smoke/test_04_uc2_api.py::test_sk2_presenter_methods [32mPASSED[0m[36m        [ 21%][0m
+tests/smoke/test_04_uc2_api.py::test_sk2_get_page [32mPASSED[0m[36m                 [ 22%][0m
+tests/smoke/test_04_uc2_api.py::test_format_constants [31mFAILED[0m[36m             [ 22%][0m
+tests/smoke/test_04_uc2_api.py::test_color_space_constants [32mPASSED[0m[36m        [ 23%][0m
+tests/smoke/test_04_uc2_api.py::test_unit_constants [32mPASSED[0m[36m               [ 23%][0m
+tests/smoke/test_05_sk2_create.py::test_create_empty_sk2_document [32mPASSED[0m[36m [ 23%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_save [32mPASSED[0m[36m                  [ 24%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_load [32mPASSED[0m[36m                  [ 24%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_round_trip [32mPASSED[0m[36m            [ 25%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_save_with_saver_function [32mPASSED[0m[36m [ 25%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_load_with_loader_function [32mPASSED[0m[36m [ 26%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_multiple_files [32mPASSED[0m[36m        [ 26%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_template_files [32mPASSED[0m[36m        [ 27%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_document_has_layers [32mPASSED[0m[36m   [ 27%][0m
+tests/smoke/test_05_sk2_create.py::test_sk2_document_units [32mPASSED[0m[36m        [ 28%][0m
+tests/smoke/test_06_format_loaders.py::test_get_loader_function_exists [32mPASSED[0m[36m [ 28%][0m
+tests/smoke/test_06_format_loaders.py::test_get_loader_by_id_function_exists [32mPASSED[0m[36m [ 29%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[SK2] [32mPASSED[0m[36m [ 29%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[SK1] [32mPASSED[0m[36m [ 29%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[SK] [32mPASSED[0m[36m [ 30%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[SVG] [32mPASSED[0m[36m [ 30%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[SVGZ] [32mPASSED[0m[36m [ 31%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[CDR] [32mPASSED[0m[36m [ 31%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[CDT] [33mSKIPPED[0m[36m [ 32%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[CMX] [32mPASSED[0m[36m [ 32%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[CCX] [32mPASSED[0m[36m [ 33%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[XAR] [32mPASSED[0m[36m [ 33%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[WMF] [32mPASSED[0m[36m [ 34%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[PLT] [32mPASSED[0m[36m [ 34%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[FIG] [32mPASSED[0m[36m [ 35%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[CGM] [32mPASSED[0m[36m [ 35%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[DST] [32mPASSED[0m[36m [ 35%][0m
+tests/smoke/test_06_format_loaders.py::test_vector_loader_by_id[PES] [32mPASSED[0m[36m [ 36%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[PNG] [32mPASSED[0m[36m [ 36%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[JPEG] [33mSKIPPED[0m[36m [ 37%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[PSD] [32mPASSED[0m[36m [ 37%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[XCF] [32mPASSED[0m[36m [ 38%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[JP2] [32mPASSED[0m[36m [ 38%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[TIFF] [33mSKIPPED[0m[36m [ 39%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[GIF] [32mPASSED[0m[36m [ 39%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[BMP] [32mPASSED[0m[36m [ 40%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[PCX] [32mPASSED[0m[36m [ 40%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[PPM] [32mPASSED[0m[36m [ 41%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[XBM] [32mPASSED[0m[36m [ 41%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[XPM] [32mPASSED[0m[36m [ 41%][0m
+tests/smoke/test_06_format_loaders.py::test_bitmap_loader_by_id[WEBP] [32mPASSED[0m[36m [ 42%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[SKP] [32mPASSED[0m[36m [ 42%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[GPL] [32mPASSED[0m[36m [ 43%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[SCRIBUS_PAL] [32mPASSED[0m[36m [ 43%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[SOC] [32mPASSED[0m[36m [ 44%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[CPL] [32mPASSED[0m[36m [ 44%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[COREL_PAL] [32mPASSED[0m[36m [ 45%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[ASE] [32mPASSED[0m[36m [ 45%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[ACO] [32mPASSED[0m[36m [ 46%][0m
+tests/smoke/test_06_format_loaders.py::test_palette_loader_by_id[JCW] [32mPASSED[0m[36m [ 46%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.sk2-SK2] [33mSKIPPED[0m[36m [ 47%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.sk1-SK1] [33mSKIPPED[0m[36m [ 47%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.svg-SVG] [33mSKIPPED[0m[36m [ 47%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.svgz-SVGZ] [33mSKIPPED[0m[36m [ 48%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.pdf-PDF] [33mSKIPPED[0m[36m [ 48%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.cdr-CDR] [33mSKIPPED[0m[36m [ 49%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.cmx-CMX] [33mSKIPPED[0m[36m [ 49%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.wmf-WMF] [33mSKIPPED[0m[36m [ 50%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.png-PNG] [33mSKIPPED[0m[36m [ 50%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.jpg-JPEG] [33mSKIPPED[0m[36m [ 51%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.tif-TIFF] [33mSKIPPED[0m[36m [ 51%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.gif-GIF] [33mSKIPPED[0m[36m [ 52%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_by_extension[.gpl-GPL] [33mSKIPPED[0m[36m [ 52%][0m
+tests/smoke/test_06_format_loaders.py::test_sk2_loader_module [32mPASSED[0m[36m     [ 52%][0m
+tests/smoke/test_06_format_loaders.py::test_svg_loader_module [32mPASSED[0m[36m     [ 53%][0m
+tests/smoke/test_06_format_loaders.py::test_pdf_loader_module [33mSKIPPED[0m[36m    [ 53%][0m
+tests/smoke/test_06_format_loaders.py::test_png_loader_module [32mPASSED[0m[36m     [ 54%][0m
+tests/smoke/test_06_format_loaders.py::test_cdr_loader_module [32mPASSED[0m[36m     [ 54%][0m
+tests/smoke/test_06_format_loaders.py::test_cmx_loader_module [32mPASSED[0m[36m     [ 55%][0m
+tests/smoke/test_06_format_loaders.py::test_loader_with_return_id [31mFAILED[0m[36m [ 55%][0m
+tests/smoke/test_06_format_loaders.py::test_all_loaders_summary [32mPASSED[0m[36m   [ 56%][0m
+tests/smoke/test_07_format_savers.py::test_get_saver_function_exists [32mPASSED[0m[36m [ 56%][0m
+tests/smoke/test_07_format_savers.py::test_get_saver_by_id_function_exists [32mPASSED[0m[36m [ 57%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[SK2] [32mPASSED[0m[36m [ 57%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[SK1] [32mPASSED[0m[36m [ 58%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[SK] [32mPASSED[0m[36m [ 58%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[SVG] [32mPASSED[0m[36m [ 58%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[SVGZ] [32mPASSED[0m[36m [ 59%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[PDF] [33mSKIPPED[0m[36m [ 59%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[PLT] [32mPASSED[0m[36m [ 60%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[CDR] [32mPASSED[0m[36m [ 60%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[CMX] [32mPASSED[0m[36m [ 61%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[CCX] [32mPASSED[0m[36m [ 61%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[CGM] [32mPASSED[0m[36m [ 62%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[FIG] [32mPASSED[0m[36m [ 62%][0m
+tests/smoke/test_07_format_savers.py::test_vector_saver_by_id[DST] [32mPASSED[0m[36m [ 63%][0m
+tests/smoke/test_07_format_savers.py::test_bitmap_saver_by_id[PNG] [32mPASSED[0m[36m [ 63%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[SKP] [32mPASSED[0m[36m [ 64%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[GPL] [32mPASSED[0m[36m [ 64%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[SCRIBUS_PAL] [32mPASSED[0m[36m [ 64%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[SOC] [32mPASSED[0m[36m [ 65%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[CPL] [32mPASSED[0m[36m [ 65%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[COREL_PAL] [32mPASSED[0m[36m [ 66%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[ASE] [32mPASSED[0m[36m [ 66%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[ACO] [32mPASSED[0m[36m [ 67%][0m
+tests/smoke/test_07_format_savers.py::test_palette_saver_by_id[JCW] [32mPASSED[0m[36m [ 67%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.sk2-SK2] [32mPASSED[0m[36m [ 68%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.sk1-SK1] [32mPASSED[0m[36m [ 68%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.svg-SVG] [32mPASSED[0m[36m [ 69%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.svgz-SVGZ] [32mPASSED[0m[36m [ 69%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.pdf-PDF] [33mSKIPPED[0m[36m [ 70%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.cdr-CDR] [32mPASSED[0m[36m [ 70%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.cmx-CMX] [32mPASSED[0m[36m [ 70%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.plt-PLT] [32mPASSED[0m[36m [ 71%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.png-PNG] [32mPASSED[0m[36m [ 71%][0m
+tests/smoke/test_07_format_savers.py::test_saver_by_extension[.gpl-GPL] [32mPASSED[0m[36m [ 72%][0m
+tests/smoke/test_07_format_savers.py::test_sk2_saver_module [32mPASSED[0m[36m       [ 72%][0m
+tests/smoke/test_07_format_savers.py::test_svg_saver_module [32mPASSED[0m[36m       [ 73%][0m
+tests/smoke/test_07_format_savers.py::test_pdf_saver_module [33mSKIPPED[0m[36m      [ 73%][0m
+tests/smoke/test_07_format_savers.py::test_png_saver_module [32mPASSED[0m[36m       [ 74%][0m
+tests/smoke/test_07_format_savers.py::test_plt_saver_module [32mPASSED[0m[36m       [ 74%][0m
+tests/smoke/test_07_format_savers.py::test_cdr_saver_module [32mPASSED[0m[36m       [ 75%][0m
+tests/smoke/test_07_format_savers.py::test_cmx_saver_module [32mPASSED[0m[36m       [ 75%][0m
+tests/smoke/test_07_format_savers.py::test_saver_with_return_id [32mPASSED[0m[36m   [ 76%][0m
+tests/smoke/test_07_format_savers.py::test_all_savers_summary [32mPASSED[0m[36m     [ 76%][0m
+tests/smoke/test_08_conversions.py::test_critical_conversion[sk2-pdf-SK2 to PDF (prepress output)] [31mFAILED[0m[36m [ 76%][0m
+tests/smoke/test_08_conversions.py::test_critical_conversion[sk2-svg-SK2 to SVG (web export)] [31mFAILED[0m[36m [ 77%][0m
+tests/smoke/test_08_conversions.py::test_critical_conversion[sk2-png-SK2 to PNG (raster export)] [31mFAILED[0m[36m [ 77%][0m
+tests/smoke/test_08_conversions.py::test_critical_conversion[sk2-sk2-SK2 round-trip] [31mFAILED[0m[36m [ 78%][0m
+tests/smoke/test_08_conversions.py::test_critical_conversion[sk2-sk1-SK2 to SK1 (backward compatibility)] [32mPASSED[0m[36m [ 78%][0m
+tests/smoke/test_08_conversions.py::test_additional_conversion[sk2-svgz-SK2 to compressed SVG] [33mSKIPPED[0m[36m [ 79%][0m
+tests/smoke/test_08_conversions.py::test_additional_conversion[sk2-plt-SK2 to PLT (plotter)] [32mPASSED[0m[36m [ 79%][0m
+tests/smoke/test_08_conversions.py::test_additional_conversion[sk2-ps-SK2 to PostScript] [33mSKIPPED[0m[36m [ 80%][0m
+tests/smoke/test_08_conversions.py::test_additional_conversion[sk2-cdr-SK2 to CDR (CorelDRAW)] [33mSKIPPED[0m[36m [ 80%][0m
+tests/smoke/test_08_conversions.py::test_additional_conversion[sk2-cmx-SK2 to CMX (Corel Exchange)] [33mSKIPPED[0m[36m [ 81%][0m
+tests/smoke/test_08_conversions.py::test_sk2_to_pdf_comprehensive [31mFAILED[0m[36m [ 81%][0m
+tests/smoke/test_08_conversions.py::test_sk2_to_svg_comprehensive [31mFAILED[0m[36m [ 82%][0m
+tests/smoke/test_08_conversions.py::test_sk2_to_png_comprehensive [31mFAILED[0m[36m [ 82%][0m
+tests/smoke/test_08_conversions.py::test_multiple_sk2_files_to_pdf [31mFAILED[0m[36m [ 82%][0m
+tests/smoke/test_08_conversions.py::test_conversion_summary [31mFAILED[0m[36m       [ 83%][0m
+tests/smoke/test_09_cms.py::test_cms_import [32mPASSED[0m[36m                       [ 83%][0m
+tests/smoke/test_09_cms.py::test_create_srgb_profile [32mPASSED[0m[36m              [ 84%][0m
+tests/smoke/test_09_cms.py::test_create_cmyk_profile [32mPASSED[0m[36m              [ 84%][0m
+tests/smoke/test_09_cms.py::test_create_gray_profile [32mPASSED[0m[36m              [ 85%][0m
+tests/smoke/test_09_cms.py::test_create_lab_profile [32mPASSED[0m[36m               [ 85%][0m
+tests/smoke/test_09_cms.py::test_rgb_to_cmyk_transform [32mPASSED[0m[36m            [ 86%][0m
+tests/smoke/test_09_cms.py::test_cmyk_to_rgb_transform [32mPASSED[0m[36m            [ 86%][0m
+tests/smoke/test_09_cms.py::test_rgb_to_lab_transform [31mFAILED[0m[36m             [ 87%][0m
+tests/smoke/test_09_cms.py::test_cms_rendering_intents [32mPASSED[0m[36m            [ 87%][0m
+tests/smoke/test_09_cms.py::test_cms_color_types [31mFAILED[0m[36m                  [ 88%][0m
+tests/smoke/test_09_cms.py::test_cms_flags [32mPASSED[0m[36m                        [ 88%][0m
+tests/smoke/test_09_cms.py::test_do_transform [31mFAILED[0m[36m                     [ 88%][0m
+tests/smoke/test_09_cms.py::test_cms_profile_from_file [32mPASSED[0m[36m            [ 89%][0m
+tests/smoke/test_09_cms.py::test_bitmap_transform [32mPASSED[0m[36m                 [ 89%][0m
+tests/smoke/test_09_cms.py::test_cms_high_level_api [32mPASSED[0m[36m               [ 90%][0m
+tests/smoke/test_10_rendering.py::test_png_export_basic [31mFAILED[0m[36m           [ 90%][0m
+tests/smoke/test_10_rendering.py::test_png_export_with_scale [31mFAILED[0m[36m      [ 91%][0m
+tests/smoke/test_10_rendering.py::test_cairo_renderer_import [33mSKIPPED[0m[36m     [ 91%][0m
+tests/smoke/test_10_rendering.py::test_cairo_surface_creation [32mPASSED[0m[36m     [ 92%][0m
+tests/smoke/test_10_rendering.py::test_multiple_png_exports [31mFAILED[0m[36m       [ 92%][0m
+tests/smoke/test_10_rendering.py::test_png_from_template [31mFAILED[0m[36m          [ 93%][0m
+tests/smoke/test_10_rendering.py::test_rendering_summary [31mFAILED[0m[36m          [ 93%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_sk2_to_pdf [31mFAILED[0m[36m           [ 94%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_sk2_to_svg [31mFAILED[0m[36m           [ 94%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_sk2_to_png [31mFAILED[0m[36m           [ 94%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_with_format_option [32mPASSED[0m[36m   [ 95%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_verbose_mode [32mPASSED[0m[36m         [ 95%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_multiple_conversions [31mFAILED[0m[36m [ 96%][0m
+tests/smoke/test_11_cli_convert.py::test_cli_conversion_summary [31mFAILED[0m[36m   [ 96%][0m
+tests/smoke/test_12_existing_tests.py::test_cms_testsuite [32mPASSED[0m[36m         [ 97%][0m
+tests/smoke/test_12_existing_tests.py::test_libimg_testsuite [32mPASSED[0m[36m      [ 97%][0m
+tests/smoke/test_12_existing_tests.py::test_image_testsuite [32mPASSED[0m[36m       [ 98%][0m
+tests/smoke/test_12_existing_tests.py::test_existing_tests_summary [32mPASSED[0m[36m [ 98%][0m
+tests/smoke/test_12_existing_tests.py::test_cms_test_data_available [32mPASSED[0m[36m [ 99%][0m
+tests/smoke/test_12_existing_tests.py::test_image_test_data_available [32mPASSED[0m[36m [ 99%][0m
+tests/smoke/test_13_gui.py::test_gui_summary [32mPASSED[0m[36m                      [100%][0m
+
+=================================== FAILURES ===================================
+[1m[31m_______________________ test_import_uc2_format_handlers ________________________[0m
+[1m[31mtests/smoke/test_01_imports.py[0m:72: in test_import_uc2_format_handlers
+[1m    from uc2.formats import pdf[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/__init__.py[0m:18: in <module>
+[1m    from uc2.formats.pdf.pdf_filters import PDF_Saver[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdf_filters.py[0m:22: in <module>
+[1m    import pdfgen[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdfgen.py[0m:20: in <module>
+[1m    from reportlab.lib.colors import CMYKColorSep, Color, CMYKColor[0m
+[1m[31mE   ImportError: No module named reportlab.lib.colors[0m
+[1m[31m___________________________ test_import_sk1_document ___________________________[0m
+[1m[31mtests/smoke/test_01_imports.py[0m:98: in test_import_sk1_document
+[1m    from sk1.document import presenter[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/sk1/document/presenter.py[0m:22: in <module>
+[1m    from sk1 import _, events, modes[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/sk1/modes.py[0m:21: in <module>
+[1m    import wal[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/wal/__init__.py[0m:18: in <module>
+[1m    from .base import Application, MainWindow, MouseEvent[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/wal/base.py[0m:21: in <module>
+[1m    import wx[0m
+[1m[31mE   ImportError: No module named wx[0m
+[1m[31m_______________________________ test_uc2_version _______________________________[0m
+[1m[31mtests/smoke/test_01_imports.py[0m:142: in test_uc2_version
+[1m    assert hasattr(uc2, '__version__') or hasattr(uc2, 'VERSION')[0m
+[1m[31mE   AssertionError: assert (False or False)[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/__init__.pyc'>, '__version__')[0m
+[1m[31mE    +  and   False = hasattr(<module 'uc2' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/__init__.pyc'>, 'VERSION')[0m
+[1m[31m____________________________ test_import_sk2_model _____________________________[0m
+[1m[31mtests/smoke/test_01_imports.py[0m:165: in test_import_sk2_model
+[1m    assert hasattr(sk2_model, 'SK2_Document')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.formats.sk2.sk2_model' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/sk2_model.pyc'>, 'SK2_Document')[0m
+[1m[31m__________________________ test_cms_native_extension ___________________________[0m
+[1m[31mtests/smoke/test_02_native_extensions.py[0m:31: in test_cms_native_extension
+[1m    assert hasattr(_cms, 'cms_create_srgb_profile')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.cms._cms' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/cms/_cms.so'>, 'cms_create_srgb_profile')[0m
+----------------------------- Captured stdout call -----------------------------
+CMS native extension loaded: <module 'uc2.cms._cms' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/cms/_cms.so'>
+[1m[31m________________________ test_libcairo_native_extension ________________________[0m
+[1m[31mtests/smoke/test_02_native_extensions.py[0m:48: in test_libcairo_native_extension
+[1m    assert hasattr(_libcairo, 'create_cpath')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.libcairo._libcairo' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libcairo/_libcairo.so'>, 'create_cpath')[0m
+----------------------------- Captured stdout call -----------------------------
+Cairo native extension loaded: <module 'uc2.libcairo._libcairo' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libcairo/_libcairo.so'>
+[1m[31m_________________________ test_libimg_native_extension _________________________[0m
+[1m[31mtests/smoke/test_02_native_extensions.py[0m:79: in test_libimg_native_extension
+[1m    assert hasattr(_libimg, 'check_image')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.libimg._libimg' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libimg/_libimg.so'>, 'check_image')[0m
+----------------------------- Captured stdout call -----------------------------
+ImageMagick native extension loaded: <module 'uc2.libimg._libimg' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libimg/_libimg.so'>
+[1m[31m_________________________ test_cms_basic_functionality _________________________[0m
+[1m[31mtests/smoke/test_02_native_extensions.py[0m:91: in test_cms_basic_functionality
+[1m    srgb_profile = _cms.cms_create_srgb_profile()[0m
+[1m[31mE   AttributeError: 'module' object has no attribute 'cms_create_srgb_profile'[0m
+[1m[31m______________________ test_libcairo_basic_functionality _______________________[0m
+[1m[31mtests/smoke/test_02_native_extensions.py[0m:113: in test_libcairo_basic_functionality
+[1m    pytest.fail("Cairo basic functionality test failed: {}".format(str(e)))[0m
+[1m[31mE   Failed: Cairo basic functionality test failed: assert False[0m
+[1m[31mE    +  where False = callable(None)[0m
+[1m[31mE    +    where None = getattr(<module 'uc2.libcairo._libcairo' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libcairo/_libcairo.so'>, 'create_cpath', None)[0m
+[1m[31m__________________________ test_format_detection_sk2 ___________________________[0m
+[1m[31mtests/smoke/test_04_uc2_api.py[0m:107: in test_format_detection_sk2
+[1m    assert loader is not None[0m
+[1m[31mE   assert None is not None[0m
+[1m[31m__________________________ test_format_detection_svg ___________________________[0m
+[1m[31mtests/smoke/test_04_uc2_api.py[0m:124: in test_format_detection_svg
+[1m    assert loader is not None[0m
+[1m[31mE   assert None is not None[0m
+[1m[31m__________________________ test_format_detection_pdf ___________________________[0m
+[1m[31mtests/smoke/test_04_uc2_api.py[0m:136: in test_format_detection_pdf
+[1m    assert loader is not None[0m
+[1m[31mE   assert None is not None[0m
+[1m[31m____________________________ test_format_constants _____________________________[0m
+[1m[31mtests/smoke/test_04_uc2_api.py[0m:215: in test_format_constants
+[1m    assert hasattr(uc2const, 'JPEG')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.uc2const' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/uc2const.pyc'>, 'JPEG')[0m
+[1m[31m__________________________ test_loader_with_return_id __________________________[0m
+[1m[31mtests/smoke/test_06_format_loaders.py[0m:201: in test_loader_with_return_id
+[1m    assert result is not None[0m
+[1m[31mE   assert None is not None[0m
+[1m[31m________ test_critical_conversion[sk2-pdf-SK2 to PDF (prepress output)] ________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:84: in test_critical_conversion
+[1m    pytest.fail("{} failed: {}".format(description, str(e)))[0m
+[1m[31mE   Failed: SK2 to PDF (prepress output) failed: No saver for .pdf[0m
+[1m[31mE   assert None is not None[0m
+----------------------------- Captured stdout call -----------------------------
+
+Testing: SK2 to PDF (prepress output)
+  Input: shaping-fusion.sk2
+  Loaded: SK2_Presenter
+[1m[31m__________ test_critical_conversion[sk2-svg-SK2 to SVG (web export)] ___________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:84: in test_critical_conversion
+[1m    pytest.fail("{} failed: {}".format(description, str(e)))[0m
+[1m[31mE   Failed: SK2 to SVG (web export) failed: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+
+Testing: SK2 to SVG (web export)
+  Input: shaping-fusion.sk2
+  Loaded: SK2_Presenter
+[1m[31m_________ test_critical_conversion[sk2-png-SK2 to PNG (raster export)] _________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:84: in test_critical_conversion
+[1m    pytest.fail("{} failed: {}".format(description, str(e)))[0m
+[1m[31mE   Failed: SK2 to PNG (raster export) failed: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+
+Testing: SK2 to PNG (raster export)
+  Input: shaping-fusion.sk2
+  Loaded: SK2_Presenter
+[1m[31m_______________ test_critical_conversion[sk2-sk2-SK2 round-trip] _______________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:84: in test_critical_conversion
+[1m    pytest.fail("{} failed: {}".format(description, str(e)))[0m
+[1m[31mE   Failed: SK2 round-trip failed: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+
+Testing: SK2 round-trip
+  Input: shaping-fusion.sk2
+  Loaded: SK2_Presenter
+------------------------------ Captured log call -------------------------------
+[1m[31mERROR   [0m uc2.formats.generic_filters:generic_filters.py:211 Error saving file content 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31mERROR   [0m uc2.formats.generic:generic.py:190 Error while saving /var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_QpeNIm/output.sk2 %s
+[1m[31mERROR   [0m uc2.formats.generic:generic.py:191 'NoneType' object has no attribute 'get_rgb_color'
+Traceback (most recent call last):
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/generic.py", line 187, in save
+    self.saver.save(self, filename, fileptr)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/generic_filters.py", line 209, in save
+    self.do_save()
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/sk2_filters.py", line 106, in do_save
+    preview = self.generate_preview()
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/sk2_filters.py", line 153, in generate_preview
+    encoded=True)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libimg/__init__.py", line 84, in generate_preview
+    rend.render(ctx, item.childs)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 115, in render
+    self.render_object(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 119, in render_object
+    self.render_primitives(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 227, in render_primitives
+    self.fill_obj(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 234, in fill_obj
+    self.process_fill(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 277, in process_fill
+    ctx.set_source_rgba(*self.get_color(color))
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 67, in get_color
+    r, g, b = self.cms.get_rgb_color(color)[1]
+AttributeError: 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31m________________________ test_sk2_to_pdf_comprehensive _________________________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:131: in test_sk2_to_pdf_comprehensive
+[1m    from uc2.formats.pdf import pdf_saver[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/__init__.py[0m:18: in <module>
+[1m    from uc2.formats.pdf.pdf_filters import PDF_Saver[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdf_filters.py[0m:22: in <module>
+[1m    import pdfgen[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdfgen.py[0m:20: in <module>
+[1m    from reportlab.lib.colors import CMYKColorSep, Color, CMYKColor[0m
+[1m[31mE   ImportError: No module named reportlab.lib.colors[0m
+[1m[31m________________________ test_sk2_to_svg_comprehensive _________________________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:182: in test_sk2_to_svg_comprehensive
+[1m    svg_saver(doc, filename=output_file)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/__init__.py[0m:49: in svg_saver
+[1m    svg_doc.translate_from_sk2(sk2_doc)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_presenter.py[0m:63: in translate_from_sk2
+[1m    translator.translate(sk2_doc, self)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1141: in translate
+[1m    self.translate_page(self.svg_mt, page)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1170: in translate_page
+[1m    self.translate_objs(self.svg_mt, source_obj.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1177: in translate_objs
+[1m    self.translate_layer(dest_parent, source_obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1202: in translate_layer
+[1m    self.translate_objs(group, source_obj.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1195: in translate_objs
+[1m    self.translate_primitive(dest_parent, source_obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1259: in translate_primitive
+[1m    style = self.translate_style(source_obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1290: in translate_style
+[1m    self.set_fill(style, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/svg/svg_translators.py[0m:1341: in set_fill
+[1m    clr = self.sk2_doc.cms.get_rgb_color(obj.style[0][2])[0m
+[1m[31mE   AttributeError: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== SK2 to SVG Comprehensive Test ===
+Loaded document
+[1m[31m________________________ test_sk2_to_png_comprehensive _________________________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:218: in test_sk2_to_png_comprehensive
+[1m    png_saver(doc, filename=output_file)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/png/__init__.py[0m:52: in png_saver
+[1m    rend.render(ctx, item.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:115: in render
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:119: in render_object
+[1m    self.render_primitives(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:227: in render_primitives
+[1m    self.fill_obj(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:234: in fill_obj
+[1m    self.process_fill(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:277: in process_fill
+[1m    ctx.set_source_rgba(*self.get_color(color))[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:67: in get_color
+[1m    r, g, b = self.cms.get_rgb_color(color)[1][0m
+[1m[31mE   AttributeError: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== SK2 to PNG Comprehensive Test ===
+Loaded document
+[1m[31m________________________ test_multiple_sk2_files_to_pdf ________________________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:242: in test_multiple_sk2_files_to_pdf
+[1m    from uc2.formats.pdf import pdf_saver[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/__init__.py[0m:18: in <module>
+[1m    from uc2.formats.pdf.pdf_filters import PDF_Saver[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdf_filters.py[0m:22: in <module>
+[1m    import pdfgen[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/pdf/pdfgen.py[0m:20: in <module>
+[1m    from reportlab.lib.colors import CMYKColorSep, Color, CMYKColor[0m
+[1m[31mE   ImportError: No module named reportlab.lib.colors[0m
+[1m[31m___________________________ test_conversion_summary ____________________________[0m
+[1m[31mtests/smoke/test_08_conversions.py[0m:327: in test_conversion_summary
+[1m    assert 'pdf' in successful_formats or 'svg' in successful_formats, \[0m
+[1m[31mE   AssertionError: Neither PDF nor SVG conversion works[0m
+[1m[31mE   assert ('pdf' in ['sk1', 'plt'] or 'svg' in ['sk1', 'plt'])[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== Conversion Summary ===
+Source: shaping-fusion.sk2
+  [SKIP] .svg: 'NoneType' object has no attribute 'get_rgb_color'
+  [SKIP] .svgz: 'NoneType' object has no attribute 'get_rgb_color'
+  [SKIP] .png: 'NoneType' object has no attribute 'get_rgb_color'
+  [SKIP] .sk2: 'NoneType' object has no attribute 'get_rgb_color'
+  [OK] .sk1: 1450 bytes
+  [OK] .plt: 197 bytes
+  [SKIP] .cdr: 'NoneType' object has no attribute 'get_rgb_color'
+  [SKIP] .cmx: 'NoneType' object has no attribute 'get_rgb_color'
+
+Results:
+  Successful: 2/10
+  Failed/Skipped: 8
+------------------------------ Captured log call -------------------------------
+[1m[31mERROR   [0m uc2.formats.generic_filters:generic_filters.py:211 Error saving file content 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31mERROR   [0m uc2.formats.generic:generic.py:190 Error while saving /var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_zxidim/summary_test.sk2 %s
+[1m[31mERROR   [0m uc2.formats.generic:generic.py:191 'NoneType' object has no attribute 'get_rgb_color'
+Traceback (most recent call last):
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/generic.py", line 187, in save
+    self.saver.save(self, filename, fileptr)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/generic_filters.py", line 209, in save
+    self.do_save()
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/sk2_filters.py", line 106, in do_save
+    preview = self.generate_preview()
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/sk2_filters.py", line 153, in generate_preview
+    encoded=True)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/libimg/__init__.py", line 84, in generate_preview
+    rend.render(ctx, item.childs)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 115, in render
+    self.render_object(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 119, in render_object
+    self.render_primitives(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 227, in render_primitives
+    self.fill_obj(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 234, in fill_obj
+    self.process_fill(ctx, obj)
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 277, in process_fill
+    ctx.set_source_rgba(*self.get_color(color))
+  File "/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py", line 67, in get_color
+    r, g, b = self.cms.get_rgb_color(color)[1]
+AttributeError: 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31m__________________________ test_rgb_to_lab_transform ___________________________[0m
+[1m[31mtests/smoke/test_09_cms.py[0m:116: in test_rgb_to_lab_transform
+[1m    lab_profile, uc2const.TYPE_Lab_DBL,[0m
+[1m[31mE   AttributeError: 'module' object has no attribute 'TYPE_Lab_DBL'[0m
+[1m[31m_____________________________ test_cms_color_types _____________________________[0m
+[1m[31mtests/smoke/test_09_cms.py[0m:154: in test_cms_color_types
+[1m    assert hasattr(uc2const, 'TYPE_Lab_DBL')[0m
+[1m[31mE   AssertionError: assert False[0m
+[1m[31mE    +  where False = hasattr(<module 'uc2.uc2const' from '/Users/albert/PycharmProjects/sk1-wx/build/lib.macosx-26.1-arm64-2.7/uc2/uc2const.pyc'>, 'TYPE_Lab_DBL')[0m
+[1m[31m______________________________ test_do_transform _______________________________[0m
+[1m[31mtests/smoke/test_09_cms.py[0m:193: in test_do_transform
+[1m    output_color = libcms.cms_do_transform(transform, input_color, 1)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/cms/libcms.py[0m:413: in cms_do_transform
+[1m    raise CmsError(msg)[0m
+[1m[31mE   CmsError: inbuff and outbuff must be Python 4-member list objects[0m
+[1m[31m____________________________ test_png_export_basic _____________________________[0m
+[1m[31mtests/smoke/test_10_rendering.py[0m:35: in test_png_export_basic
+[1m    png_saver(doc, filename=output_file)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/png/__init__.py[0m:52: in png_saver
+[1m    rend.render(ctx, item.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:115: in render
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:119: in render_object
+[1m    self.render_primitives(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:227: in render_primitives
+[1m    self.fill_obj(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:234: in fill_obj
+[1m    self.process_fill(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:277: in process_fill
+[1m    ctx.set_source_rgba(*self.get_color(color))[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:67: in get_color
+[1m    r, g, b = self.cms.get_rgb_color(color)[1][0m
+[1m[31mE   AttributeError: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+Rendering: shaping-fusion.sk2
+[1m[31m__________________________ test_png_export_with_scale __________________________[0m
+[1m[31mtests/smoke/test_10_rendering.py[0m:73: in test_png_export_with_scale
+[1m    png_saver(doc, filename=output_file, image_scale=scale)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/png/__init__.py[0m:52: in png_saver
+[1m    rend.render(ctx, item.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:115: in render
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:119: in render_object
+[1m    self.render_primitives(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:227: in render_primitives
+[1m    self.fill_obj(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:234: in fill_obj
+[1m    self.process_fill(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:277: in process_fill
+[1m    ctx.set_source_rgba(*self.get_color(color))[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:67: in get_color
+[1m    r, g, b = self.cms.get_rgb_color(color)[1][0m
+[1m[31mE   AttributeError: 'NoneType' object has no attribute 'get_rgb_color'[0m
+[1m[31m__________________________ test_multiple_png_exports ___________________________[0m
+[1m[31mtests/smoke/test_10_rendering.py[0m:158: in test_multiple_png_exports
+[1m    assert rendered > 0, "Failed to render any files"[0m
+[1m[31mE   AssertionError: Failed to render any files[0m
+[1m[31mE   assert 0 > 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== Rendering 3 files to PNG ===
+  [1] shaping-fusion.sk2 FAILED: 'NoneType' object has no attribute 'get_rgb_color'
+  [2] action-to-bw.sk2 FAILED: 'NoneType' object has no attribute 'get_rgb_color'
+  [3] shaping-exclusion.sk2 FAILED: 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31m____________________________ test_png_from_template ____________________________[0m
+[1m[31mtests/smoke/test_10_rendering.py[0m:177: in test_png_from_template
+[1m    png_saver(doc, filename=output_file)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/png/__init__.py[0m:52: in png_saver
+[1m    rend.render(ctx, item.childs)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:115: in render
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:124: in render_object
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:124: in render_object
+[1m    self.render_object(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:119: in render_object
+[1m    self.render_primitives(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:227: in render_primitives
+[1m    self.fill_obj(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:234: in fill_obj
+[1m    self.process_fill(ctx, obj)[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:277: in process_fill
+[1m    ctx.set_source_rgba(*self.get_color(color))[0m
+[1m[31mbuild/lib.macosx-26.1-arm64-2.7/uc2/formats/sk2/crenderer.py[0m:67: in get_color
+[1m    r, g, b = self.cms.get_rgb_color(color)[1][0m
+[1m[31mE   AttributeError: 'NoneType' object has no attribute 'get_rgb_color'[0m
+----------------------------- Captured stdout call -----------------------------
+Rendering template: print_calibration_letter.sk2
+[1m[31m____________________________ test_rendering_summary ____________________________[0m
+[1m[31mtests/smoke/test_10_rendering.py[0m:224: in test_rendering_summary
+[1m    pytest.fail("PNG rendering not working")[0m
+[1m[31mE   Failed: PNG rendering not working[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== Rendering Summary ===
+Source: shaping-fusion.sk2
+  [FAIL] Rendering failed: 'NoneType' object has no attribute 'get_rgb_color'
+[1m[31m_____________________________ test_cli_sk2_to_pdf ______________________________[0m
+[1m[31mtests/smoke/test_11_cli_convert.py[0m:56: in test_cli_sk2_to_pdf
+[1m    assert os.path.exists(output_file), "Output file not created"[0m
+[1m[31mE   AssertionError: Output file not created[0m
+[1m[31mE   assert False[0m
+[1m[31mE    +  where False = <function exists at 0x100ce7c88>('/var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_opR3mK/cli_test.pdf')[0m
+[1m[31mE    +    where <function exists at 0x100ce7c88> = <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'>.exists[0m
+[1m[31mE    +      where <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'> = os.path[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== CLI Test: SK2 to PDF ===
+Input: shaping-fusion.sk2
+Command: uniconvertor /Users/albert/PycharmProjects/sk1-wx/resources/shaping-fusion.sk2 /var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_opR3mK/cli_test.pdf
+[1m[31m_____________________________ test_cli_sk2_to_svg ______________________________[0m
+[1m[31mtests/smoke/test_11_cli_convert.py[0m:104: in test_cli_sk2_to_svg
+[1m    pytest.fail("CLI conversion failed: {}".format(str(e)))[0m
+[1m[31mE   Failed: CLI conversion failed: assert False[0m
+[1m[31mE    +  where False = <function exists at 0x100ce7c88>('/var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_KgNHtx/cli_test.svg')[0m
+[1m[31mE    +    where <function exists at 0x100ce7c88> = <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'>.exists[0m
+[1m[31mE    +      where <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'> = os.path[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== CLI Test: SK2 to SVG ===
+[1m[31m_____________________________ test_cli_sk2_to_png ______________________________[0m
+[1m[31mtests/smoke/test_11_cli_convert.py[0m:140: in test_cli_sk2_to_png
+[1m    pytest.fail("CLI conversion failed: {}".format(str(e)))[0m
+[1m[31mE   Failed: CLI conversion failed: assert False[0m
+[1m[31mE    +  where False = <function exists at 0x100ce7c88>('/var/folders/lp/nvhk58z96876_m310tx6dnn80000gn/T/sk1_test_xjXKZz/cli_test.png')[0m
+[1m[31mE    +    where <function exists at 0x100ce7c88> = <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'>.exists[0m
+[1m[31mE    +      where <module 'posixpath' from '/Users/albert/.pyenv/versions/2.7.18/lib/python2.7/posixpath.pyc'> = os.path[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== CLI Test: SK2 to PNG ===
+[1m[31m________________________ test_cli_multiple_conversions _________________________[0m
+[1m[31mtests/smoke/test_11_cli_convert.py[0m:245: in test_cli_multiple_conversions
+[1m    except subprocess.TimeoutExpired:[0m
+[1m[31mE   AttributeError: 'module' object has no attribute 'TimeoutExpired'[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== CLI Multiple Conversions ===
+[1m[31m_________________________ test_cli_conversion_summary __________________________[0m
+[1m[31mtests/smoke/test_11_cli_convert.py[0m:297: in test_cli_conversion_summary
+[1m    assert len(successful) > 0, "No CLI conversions worked"[0m
+[1m[31mE   AssertionError: No CLI conversions worked[0m
+[1m[31mE   assert 0 > 0[0m
+[1m[31mE    +  where 0 = len([])[0m
+----------------------------- Captured stdout call -----------------------------
+
+=== CLI Conversion Summary ===
+Source: shaping-fusion.sk2
+  [ERROR] .pdf: __init__() got an unexpected keyword argument 'timeout'
+  [ERROR] .svg: __init__() got an unexpected keyword argument 'timeout'
+  [ERROR] .png: __init__() got an unexpected keyword argument 'timeout'
+[1m[31m======= 36 failed, 149 passed, 32 skipped, 9 deselected in 1.85 seconds ========[0m
