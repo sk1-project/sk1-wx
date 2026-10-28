@@ -1,0 +1,3689 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sK1 2.0rc5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 01:13+0200\n"
+"PO-Revision-Date: 2026-10-28 11:52+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/sk1/app_proxy.py:61 src/sk1/dialogs/filldlg.py:90
+msgid "Fill"
+msgstr "Fyllning"
+
+#: src/sk1/app_proxy.py:116 src/sk1/dialogs/strokedlg.py:100
+msgid "Stroke"
+msgstr "Kontur"
+
+#: src/sk1/context/circle.py:60
+msgid "Arc"
+msgstr "Båge"
+
+#: src/sk1/context/circle.py:66
+msgid "Chord"
+msgstr "Korda"
+
+#: src/sk1/context/markup.py:142
+msgid "Italic"
+msgstr "Kursiv"
+
+#: src/sk1/context/markup.py:148
+msgid "Underline"
+msgstr "Understruken"
+
+#: src/sk1/context/markup.py:201
+msgid "Superscript"
+msgstr "Upphöjd"
+
+#: src/sk1/context/markup.py:206
+msgid "Subscript"
+msgstr "Nedsänkt"
+
+#: src/sk1/dialogs/aboutdlg.py:39 src/sk1/dialogs/aboutdlg.py:163
+msgid "About"
+msgstr "Om"
+
+#: src/sk1/dialogs/aboutdlg.py:41
+msgid "Translators"
+msgstr "Översättare"
+
+#: src/sk1/dialogs/aboutdlg.py:43
+msgid "License"
+msgstr "Licens"
+
+#: src/sk1/dialogs/aboutdlg.py:66 src/sk1/dialogs/aboutdlg.py:85
+msgid "Version"
+msgstr "Version"
+
+#: src/sk1/dialogs/docinfodlg.py:81 src/sk1/dialogs/filelogviewer.py:96
+msgid "File"
+msgstr "Fil"
+
+#: src/sk1/dialogs/docinfodlg.py:101 src/uc2/formats/sk/sk_model.py:50
+#: src/uc2/formats/sk1/model.py:51 src/uc2/formats/sk2/sk2_cids.py:62
+msgid "Document"
+msgstr "Dokument"
+
+#: src/sk1/dialogs/docinfodlg.py:102 src/sk1/printing/printdlg/panels.py:141
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: src/sk1/dialogs/docinfodlg.py:290
+msgid "Property"
+msgstr "Egenskap"
+
+#: src/sk1/dialogs/docinfodlg.py:290
+msgid "Value"
+msgstr "Värde"
+
+#: src/sk1/dialogs/docprops.py:48
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/sk1/dialogs/docprops.py:72 src/sk1/printing/propsdlg/pdfpropsdlg.py:209
+msgid "Keywords:"
+msgstr "Nyckelord:"
+
+#: src/sk1/dialogs/docprops.py:98
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:51
+#: src/uc2/formats/pdxf/methods.py:123 src/uc2/formats/pdxf/methods.py:140
+#: src/uc2/formats/pdxf/model.py:232 src/uc2/formats/sk1/model.py:52
+#: src/uc2/formats/sk2/sk2_cids.py:68 src/uc2/formats/sk2/sk2_methods.py:174
+#: src/uc2/formats/sk2/sk2_methods.py:191 src/uc2/formats/sk2/sk2_model.py:213
+msgid "Page"
+msgstr "Sida"
+
+#: src/sk1/dialogs/docprops.py:191 src/sk1/printing/printdlg/toolbar.py:34
+msgid "Page:"
+msgstr "Sida:"
+
+#: src/sk1/dialogs/docprops.py:314
+msgid "Page center"
+msgstr "Sidans mitt"
+
+#: src/sk1/dialogs/docprops.py:319
+msgid "Units"
+msgstr "Enheter"
+
+#: src/sk1/dialogs/docprops.py:354
+msgid "Unit"
+msgstr "Enhet"
+
+#: src/sk1/dialogs/docprops.py:425 src/uc2/formats/sk/sk_model.py:50
+#: src/uc2/formats/sk/sk_model.py:279 src/uc2/formats/sk1/model.py:51
+#: src/uc2/formats/sk1/model.py:215
+msgid "Grid"
+msgstr "Rutnät"
+
+#: src/sk1/dialogs/docprops.py:490
+msgid "Grid color:"
+msgstr "Rutnätsfärg:"
+
+#: src/sk1/dialogs/docprops.py:595
+msgid "Guides"
+msgstr "Stödlinjer"
+
+#: src/sk1/dialogs/filelogviewer.py:70
+msgid "Path"
+msgstr "Bana"
+
+#: src/sk1/dialogs/filelogviewer.py:70
+msgid "Time"
+msgstr "Tid"
+
+#: src/sk1/dialogs/filelogviewer.py:76
+msgid "Saved"
+msgstr "Sparad"
+
+#: src/sk1/dialogs/logconsole.py:171 src/sk1/resources/labels.py:85
+#: src/sk1/printing/printdlg/toolbar.py:50
+msgid "Zoom in"
+msgstr "Zooma in"
+
+#: src/sk1/application.py:409
+msgid "Select file to import"
+msgstr "Välj fil att importera"
+
+#: src/sk1/context/page_format.py:49 src/sk1/context/page_format.py:100
+#: src/sk1/dialogs/docprops.py:120 src/uc2/formats/xar/xar_translators.py:151
+msgid "Custom"
+msgstr "Anpassad"
+
+#: src/sk1/dialogs/docinfodlg.py:241
+msgid "Fills"
+msgstr "Fyllningar"
+
+#: src/sk1/dialogs/logconsole.py:172 src/sk1/resources/labels.py:86
+#: src/sk1/printing/printdlg/toolbar.py:51
+msgid "Zoom out"
+msgstr "Zooma ut"
+
+#: src/sk1/dialogs/pagedlg.py:76
+msgid "Delete page"
+msgstr "Ta bort sida"
+
+#: src/sk1/dialogs/paletteinfo.py:51
+msgid "Columns:"
+msgstr "Kolumner:"
+
+#: src/sk1/dialogs/paletteinfo.py:57 src/sk1/prefs/prefs_cms.py:478
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: src/sk1/dialogs/strokedlg.py:113
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:117
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:98
+msgid "Width:"
+msgstr "Bredd:"
+
+#: src/sk1/dialogs/strokedlg.py:123
+msgid "Markers:"
+msgstr "Markörer:"
+
+#: src/sk1/dialogs/strokedlg.py:157
+msgid "Caps:"
+msgstr "Ändar:"
+
+#: src/sk1/dialogs/strokedlg.py:170
+msgid "Miter limit:"
+msgstr "Geringsgräns:"
+
+#: src/sk1/document/selection.py:60
+msgid "No selection"
+msgstr "Ingen markering"
+
+#: src/sk1/parts/statusbar.py:230 src/sk1/pwidgets/colorctrls.py:504
+msgid "Fill:"
+msgstr "Fyllning:"
+
+#: src/sk1/prefs/prefs_cms.py:35
+msgid "CMS"
+msgstr "CMS"
+
+#: src/sk1/prefs/prefs_cms.py:86
+msgid "Color management"
+msgstr "Färghantering"
+
+#: src/sk1/prefs/prefs_cms.py:130
+msgid "Color profiles"
+msgstr "Färgprofiler"
+
+#: src/sk1/prefs/prefs_cms.py:364 src/sk1/prefs/prefs_palettes.py:229
+msgid "Import"
+msgstr "Importera"
+
+#: src/sk1/prefs/prefs_cms.py:367 src/sk1/prefs/prefs_palettes.py:237
+msgid "Remove"
+msgstr "Ta bort"
+
+#: src/sk1/prefs/prefs_cms.py:370
+msgid "Info"
+msgstr "Info"
+
+#: src/sk1/prefs/prefs_cms.py:465
+msgid "Name:"
+msgstr "Namn:"
+
+#: src/sk1/prefs/prefs_cms.py:467
+msgid "File:"
+msgstr "Fil:"
+
+#: src/sk1/prefs/prefs_cms.py:487
+msgid "Settings"
+msgstr "Inställningar"
+
+#: src/sk1/prefs/prefs_fonts.py:28 src/uc2/formats/sk2/sk2_cids.py:65
+msgid "Fonts"
+msgstr "Typsnitt"
+
+#: src/sk1/prefs/prefs_fonts.py:49
+msgid "Font size:"
+msgstr "Typsnittsstorlek:"
+
+#: src/sk1/prefs/prefs_fonts.py:53
+msgid "Font color:"
+msgstr "Typsnittsfärg:"
+
+#: src/sk1/prefs/prefs_general.py:58
+msgid "General"
+msgstr "Allmänt"
+
+#: src/sk1/prefs/prefs_palettes.py:25
+msgid "Horizontal"
+msgstr "Horisontell"
+
+#: src/sk1/prefs/prefs_palettes.py:25
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: src/sk1/prefs/prefs_palettes.py:95 src/sk1/prefs/prefs_palettes.py:102
+#: src/sk1/prefs/prefs_palettes.py:118 src/sk1/prefs/prefs_palettes.py:126
+#: src/uc2/uc2const.py:399
+msgid "px"
+msgstr "px"
+
+#: src/sk1/prefs/prefs_palettes.py:233
+msgid "Export"
+msgstr "Exportera"
+
+#: src/sk1/prefs/prefs_ruler.py:30
+msgid "Rulers"
+msgstr "Linjaler"
+
+#: src/sk1/prefs/prefs_ruler.py:83
+msgid "Vertical:"
+msgstr "Vertikal:"
+
+#: src/sk1/prefs/prefs_ruler.py:90
+msgid "Horizontal:"
+msgstr "Horisontell:"
+
+#: src/sk1/prefs/prefs_ui.py:94
+msgid "Classic"
+msgstr "Klassisk"
+
+#: src/sk1/printing/cups_print.py:278 src/sk1/printing/generic.py:149
+msgid "Done"
+msgstr "Färdig"
+
+#: src/sk1/pwidgets/colorctrls.py:488 src/sk1/pwidgets/colorctrls.py:517
+msgid "None"
+msgstr "Ingen"
+
+#: src/sk1/pwidgets/fillctrls.py:443
+msgid "Linear gradient"
+msgstr "Linjär gradient"
+
+#: src/sk1/pwidgets/fillctrls.py:444
+msgid "Radial gradient"
+msgstr "Radiell gradient"
+
+#: src/sk1/pwidgets/gradientctrls.py:167
+msgid "Position:"
+msgstr "Position:"
+
+#: src/sk1/pwidgets/gradientctrls.py:402
+msgid "Reverse gradient"
+msgstr "Omvänd gradient"
+
+#: src/sk1/pwidgets/gradientctrls.py:403
+#: src/sk1/printing/printdlg/panels.py:82
+msgid "Reverse"
+msgstr "Omvänd"
+
+#: src/sk1/resources/labels.py:32
+msgid "Create rectangle"
+msgstr "Skapa rektangel"
+
+#: src/sk1/resources/labels.py:33
+msgid "Create ellipse"
+msgstr "Skapa ellips"
+
+#: src/sk1/resources/labels.py:39
+msgid "Edit gradient"
+msgstr "Redigera gradient"
+
+#: src/sk1/resources/labels.py:51
+msgid "Save document"
+msgstr "Spara dokument"
+
+#: src/sk1/resources/labels.py:55
+msgid "Save All"
+msgstr "Spara alla"
+
+#: src/sk1/resources/labels.py:62
+msgid "Print document"
+msgstr "Skriv ut dokument"
+
+#: src/sk1/resources/labels.py:72
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: src/sk1/resources/labels.py:126
+msgid "Move Up"
+msgstr "Flytta uppåt"
+
+#: src/sk1/resources/labels.py:127
+msgid "Move Down"
+msgstr "Flytta neråt"
+
+#: src/sk1/resources/labels.py:147
+msgid "Add node"
+msgstr "Lägg till nod"
+
+#: src/sk1/resources/labels.py:148
+msgid "Delete nodes"
+msgstr "Ta bort noder"
+
+#: src/sk1/resources/labels.py:150
+msgid "Delete segment"
+msgstr "Ta bort segment"
+
+#: src/sk1/resources/labels.py:151
+msgid "Join nodes"
+msgstr "Sammanfoga noder"
+
+#: src/sk1/resources/labels.py:178 src/uc2/formats/sk1/model.py:52
+#: src/uc2/formats/sk2/sk2_cids.py:68
+msgid "Pages"
+msgstr "Sidor"
+
+#: src/sk1/printing/printdlg/panels.py:135
+msgid "All"
+msgstr "Alla"
+
+#: src/sk1/printing/printdlg/panels.py:137
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:52
+msgid "Selection"
+msgstr "Markering"
+
+#: src/sk1/printing/printdlg/panels.py:139
+msgid "Current page"
+msgstr "Aktuell sida"
+
+#: src/sk1/printing/printdlg/panels.py:246
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:45
+msgid "Color"
+msgstr "Färg"
+
+#: src/sk1/printing/printdlg/panels.py:290
+#: src/sk1/printing/printdlg/toolbar.py:46
+msgid "Print"
+msgstr "Skriv ut"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:127
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:107
+msgid "Height:"
+msgstr "Höjd:"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:193
+msgid "Orientation"
+msgstr "Orientering"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:242
+msgid "Margins"
+msgstr "Marginaler"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:44
+msgid "PDF version:"
+msgstr "PDF-version:"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:115
+msgid "Orientation:"
+msgstr "Orientering:"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:197
+msgid "Title:"
+msgstr "Titel:"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:53
+msgid "First selected"
+msgstr "Första markerade"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:54
+msgid "Last selected"
+msgstr "Senast markerade"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:56
+msgid "Smallest object"
+msgstr "Minsta objekt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:135
+msgid "Relative to:"
+msgstr "Relativ till:"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:158
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:342
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:467
+#: src/sk1/share/pd_plugins/shaping/__init__.py:93
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:150
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:123
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:116
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:145
+msgid "Size:"
+msgstr "Storlek:"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:182
+msgid "Background:"
+msgstr "Bakgrund:"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:51
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:66
+msgid "Layers"
+msgstr "Lager"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:87
+msgid "Delete layer"
+msgstr "Ta bort lager"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:90
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:208
+msgid "Rename layer"
+msgstr "Byt namn på lager"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:75
+msgid "Text on Path"
+msgstr "Text på bana"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:55
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:122
+msgid "Position"
+msgstr "Position"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:74
+msgid "Transformations"
+msgstr "Transformationer"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:289
+msgid "Flip horizontal"
+msgstr "Vänd horisontellt"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:301
+msgid "Flip vertical"
+msgstr "Vänd vertikalt"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:366
+msgid "Rotation"
+msgstr "Rotering"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:375
+msgid "Angle:"
+msgstr "Vinkel:"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:460
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:466
+msgid "degrees"
+msgstr "grader"
+
+#: src/uc2/uc2const.py:388 src/uc2/uc2const.py:408
+msgid "pixels"
+msgstr "bildpunkter"
+
+#: src/uc2/uc2const.py:389 src/uc2/uc2const.py:414
+msgid "millimeters"
+msgstr "millimeter"
+
+#: src/uc2/uc2const.py:390 src/uc2/uc2const.py:413
+msgid "centimeters"
+msgstr "centimeter"
+
+#: src/uc2/uc2const.py:391 src/uc2/uc2const.py:412
+msgid "meters"
+msgstr "meter"
+
+#: src/uc2/uc2const.py:392 src/uc2/uc2const.py:409
+msgid "points"
+msgstr "punkter"
+
+#: src/uc2/uc2const.py:393 src/uc2/uc2const.py:410
+msgid "inches"
+msgstr "tum"
+
+#: src/uc2/uc2const.py:394 src/uc2/uc2const.py:411
+msgid "feet"
+msgstr "fot"
+
+#: src/uc2/uc2const.py:400
+msgid "in"
+msgstr "tum"
+
+#: src/uc2/uc2const.py:401
+msgid "ft"
+msgstr "fot"
+
+#: src/uc2/uc2const.py:402
+msgid "m"
+msgstr "m"
+
+#: src/uc2/uc2const.py:403
+msgid "cm"
+msgstr "cm"
+
+#: src/uc2/uc2const.py:404
+msgid "mm"
+msgstr "mm"
+
+#: src/uc2/uc2const.py:532
+msgid "Portrait"
+msgstr "Stående"
+
+#: src/uc2/uc2const.py:532
+msgid "Landscape"
+msgstr "Liggande"
+
+#: src/uc2/uc2const.py:542
+msgid "Perceptual"
+msgstr "Perceptuell"
+
+#: src/uc2/uc2const.py:543
+msgid "Relative Colorimetric"
+msgstr "Relativ kolorimetri"
+
+#: src/uc2/uc2const.py:544
+msgid "Saturation"
+msgstr "Mättnad"
+
+#: src/uc2/uc2const.py:545
+msgid "Absolute Colorimetric"
+msgstr "Absolut kolorimetri"
+
+#: src/uc2/formats/pdxf/methods.py:151 src/uc2/formats/pdxf/methods.py:159
+#: src/uc2/formats/pdxf/model.py:267 src/uc2/formats/sk/sk_model.py:51
+#: src/uc2/formats/sk1/model.py:52 src/uc2/formats/sk2/sk2_cids.py:69
+#: src/uc2/formats/sk2/sk2_methods.py:204
+#: src/uc2/formats/sk2/sk2_methods.py:212 src/uc2/formats/sk2/sk2_model.py:250
+msgid "Layer"
+msgstr "Lager"
+
+#: src/uc2/formats/sk/sk_model.py:50 src/uc2/formats/sk1/model.py:51
+msgid "Layout"
+msgstr "Layout"
+
+#: src/uc2/formats/sk/sk_model.py:52 src/uc2/formats/sk1/model.py:54
+msgid "Guideline"
+msgstr "Stödlinje"
+
+#: src/uc2/formats/sk/sk_model.py:54 src/uc2/formats/sk1/model.py:56
+#: src/uc2/formats/sk2/sk2_cids.py:64
+msgid "Style"
+msgstr "Stil"
+
+#: src/uc2/formats/sk/sk_model.py:55 src/uc2/formats/sk1/model.py:57
+#: src/uc2/formats/sk2/sk2_cids.py:73
+msgid "Group"
+msgstr "Grupp"
+
+#: src/uc2/formats/sk/sk_model.py:57 src/uc2/formats/sk1/model.py:59
+#: src/uc2/formats/sk2/sk2_cids.py:76
+msgid "Rectangle"
+msgstr "Rektangel"
+
+#: src/uc2/formats/sk/sk_model.py:57 src/uc2/formats/sk1/model.py:59
+#: src/uc2/formats/sk2/sk2_cids.py:76
+msgid "Ellipse"
+msgstr "Ellips"
+
+#: src/uc2/formats/sk/sk_model.py:58 src/uc2/formats/sk1/model.py:60
+msgid "Text"
+msgstr "Text"
+
+#: src/uc2/formats/sk/sk_model.py:58 src/uc2/formats/sk1/model.py:60
+#: src/uc2/formats/sk2/sk2_cids.py:66
+msgid "Image"
+msgstr "Bild"
+
+#: src/uc2/formats/sk2/sk2_cids.py:64
+msgid "Styles"
+msgstr "Stilar"
+
+#: src/uc2/formats/sk2/sk2_cids.py:66
+msgid "Font"
+msgstr "Typsnitt"
+
+#: src/uc2/formats/sk2/sk2_cids.py:66
+msgid "Images"
+msgstr "Bilder"
+
+#: src/uc2/formats/sk2/sk2_cids.py:71
+msgid "Guide"
+msgstr "Stödlinje"
+
+#: src/uc2/formats/sk2/sk2_cids.py:77
+msgid "Polygon"
+msgstr "Polygon"
+
+#: src/uc2/formats/sk2/sk2_cids.py:79
+msgid "Bitmap"
+msgstr "Rasterbild"
+
+#: src/sk1/app_plugins.py:57
+msgid "plugin"
+msgstr "Tillägg"
+
+#: src/sk1/app_proxy.py:58 src/sk1/app_proxy.py:81
+msgid "Default document fill"
+msgstr "Dokumentets standardfyllning"
+
+#: src/sk1/app_proxy.py:74
+msgid "Do you wish to change default fill style for this document?"
+msgstr "Vill du ändra standardfyllningen för det här dokumentet?"
+
+#: src/sk1/app_proxy.py:76 src/sk1/app_proxy.py:131 src/sk1/app_proxy.py:733
+#: src/sk1/app_proxy.py:756
+msgid "This style will be applied to newly created objects."
+msgstr "Den här stilen används för nya objekt."
+
+#: src/sk1/app_proxy.py:113 src/sk1/app_proxy.py:136
+msgid "Default document stroke"
+msgstr "Dokumentets standardkontur"
+
+#: src/sk1/app_proxy.py:129
+msgid "Do you wish to change default stroke style for this document?"
+msgstr "Vill du ändra standardkonturen för det här dokumentet?"
+
+#: src/sk1/app_proxy.py:163
+msgid "Source object is not selected to copy fill property."
+msgstr "Inget källobjekt har valts för att kopiera fyllningen."
+
+#: src/sk1/app_proxy.py:165
+msgid "Selected object cannot be source of fill property."
+msgstr "Det markerade objektet kan inte användas som källa för fyllningen."
+
+#: src/sk1/app_proxy.py:166 src/sk1/app_proxy.py:185 src/sk1/app_proxy.py:608
+#: src/sk1/share/pd_plugins/shaping/__init__.py:168
+msgid "Do you want to try again?"
+msgstr "Vill du försöka igen?"
+
+#: src/sk1/app_proxy.py:182
+msgid "Source object is not selected to copy stroke property."
+msgstr "Inget källobjekt har valts för att kopiera konturen."
+
+#: src/sk1/app_proxy.py:184
+msgid "Selected object cannot be source of stroke property."
+msgstr "Det markerade objektet kan inte användas som källa för konturen."
+
+#: src/sk1/app_proxy.py:557 src/sk1/share/pd_plugins/shaping/__init__.py:179
+msgid "Error occurred during this operation."
+msgstr "Ett fel uppstod under åtgärden."
+
+#: src/sk1/app_proxy.py:559 src/sk1/share/pd_plugins/shaping/__init__.py:180
+msgid "Perhaps this was due to the imperfection of the algorithm."
+msgstr "Det kan bero på brister i algoritmen."
+
+#: src/sk1/app_proxy.py:602 src/sk1/share/pd_plugins/shaping/__init__.py:165
+msgid "There is no selected object."
+msgstr "Inget objekt är markerat."
+
+#: src/sk1/app_proxy.py:604
+msgid "Object from current selection cannot be container."
+msgstr "Objektet i den aktuella markeringen kan inte vara en behållare."
+
+#: src/sk1/app_proxy.py:606
+msgid "Selected object cannot be container."
+msgstr "Det markerade objektet kan inte vara en behållare."
+
+#: src/sk1/app_proxy.py:731
+msgid "Do you wish to change default fill color for this document?"
+msgstr "Vill du ändra standardfyllningsfärgen för det här dokumentet?"
+
+#: src/sk1/app_proxy.py:754
+msgid "Do you wish to change default stroke color for this document?"
+msgstr "Vill du ändra standardkonturfärgen för det här dokumentet?"
+
+#: src/sk1/app_proxy.py:810
+msgid "Application logs"
+msgstr "Programloggar"
+
+#: src/sk1/application.py:80
+msgid "WindowsXP platform is obsolete and not supported!"
+msgstr "Windows XP är föråldrat och stöds inte!"
+
+#: src/sk1/application.py:145 src/sk1/application.py:385
+msgid "To start, create new document or open existing"
+msgstr "Skapa ett nytt dokument eller öppna ett befintligt för att börja"
+
+#: src/sk1/application.py:197
+msgid "Untitled"
+msgstr "Namnlös"
+
+#: src/sk1/application.py:206
+msgid "Document is changed"
+msgstr "Dokumentet har ändrats"
+
+#: src/sk1/application.py:214
+msgid "New document created"
+msgstr "Nytt dokument har skapats"
+
+#: src/sk1/application.py:217
+msgid "Select Template"
+msgstr "Välj mall"
+
+#: src/sk1/application.py:223
+msgid "Cannot parse file:"
+msgstr "Kan inte tolka filen:"
+
+#: src/sk1/application.py:225 src/sk1/application.py:253
+#: src/sk1/application.py:435 src/sk1/application.py:553
+#: src/sk1/application.py:592
+msgid "The file may be corrupted or not supported format"
+msgstr "Filen kan vara skadad eller ha ett format som inte stöds"
+
+#: src/sk1/application.py:232
+msgid "New document from template"
+msgstr "Nytt dokument från mall"
+
+#: src/sk1/application.py:242 src/sk1/application.py:251
+msgid "Cannot open file:"
+msgstr "Kan inte öppna filen:"
+
+#: src/sk1/application.py:244
+msgid "The file contains newer SK2 format.\n"
+msgstr "Filen innehåller ett nyare SK2-format.\n"
+
+#: src/sk1/application.py:245
+msgid "Try updating sK1 application from https://sk1project.net"
+msgstr "Försök att uppdatera sK1 från https://sk1project.net"
+
+#: src/sk1/application.py:255 src/sk1/application.py:437
+#: src/sk1/application.py:555 src/sk1/application.py:594
+msgid "Details see in application logs."
+msgstr "Mer information finns i programloggarna."
+
+#: src/sk1/application.py:263
+msgid "Document opened"
+msgstr "Dokumentet har öppnats"
+
+#: src/sk1/application.py:281
+msgid "Cannot save file:"
+msgstr "Kan inte spara filen:"
+
+#: src/sk1/application.py:283
+msgid "Please check file write permissions"
+msgstr "Kontrollera filens skrivrättigheter"
+
+#: src/sk1/application.py:287 src/sk1/application.py:319
+msgid "Document saved"
+msgstr "Dokumentet har sparats"
+
+#: src/sk1/application.py:310 src/sk1/application.py:343
+#: src/sk1/application.py:456
+msgid "Cannot save document:"
+msgstr "Kan inte spara dokumentet:"
+
+#: src/sk1/application.py:312 src/sk1/application.py:458
+#: src/sk1/application.py:480 src/sk1/application.py:518
+#: src/sk1/application.py:577
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:316
+msgid "Please check file name and write permissions"
+msgstr "Kontrollera filnamnet och skrivrättigheterna"
+
+#: src/sk1/application.py:334
+msgid "Save selected objects only as..."
+msgstr "Spara endast markerade objekt som …"
+
+#: src/sk1/application.py:345
+msgid "Please check requested file format and write permissions"
+msgstr "Kontrollera det valda filformatet och skrivrättigheterna"
+
+#: src/sk1/application.py:364
+#, python-format
+msgid "Document '%s' has been modified."
+msgstr "Dokumentet ”%s” har ändrats."
+
+#: src/sk1/application.py:365
+msgid "Do you want to save your changes?"
+msgstr "Vill du spara dina ändringar?"
+
+#: src/sk1/application.py:417
+msgid "Cannot import graphics from file:"
+msgstr "Kan inte importera grafik från filen:"
+
+#: src/sk1/application.py:419
+msgid "It seems the document is empty or contains unsupported objects."
+msgstr "Dokumentet verkar vara tomt eller innehålla objekt som inte stöds."
+
+#: src/sk1/application.py:433 src/sk1/application.py:551
+msgid "Cannot import file:"
+msgstr "Kan inte importera filen:"
+
+#: src/sk1/application.py:449
+msgid "Export document As..."
+msgstr "Exportera dokument som …"
+
+#: src/sk1/application.py:463
+msgid "Document is successfully exported"
+msgstr "Dokumentet har exporterats"
+
+#: src/sk1/application.py:469
+msgid "Extract selected bitmap as..."
+msgstr "Extrahera markerad rasterbild som …"
+
+#: src/sk1/application.py:478
+msgid "Cannot save bitmap:"
+msgstr "Kan inte spara rasterbilden:"
+
+#: src/sk1/application.py:486
+msgid "Bitmap is successfully extracted"
+msgstr "Rasterbilden har extraherats"
+
+#: src/sk1/application.py:494
+msgid "Export palette as..."
+msgstr "Exportera palett som …"
+
+#: src/sk1/application.py:507 src/sk1/document/presenter.py:225
+msgid "Exporting..."
+msgstr "Exporterar …"
+
+#: src/sk1/application.py:511 src/sk1/document/presenter.py:229
+#, python-format
+msgid "Unknown file format is requested for export <%s>"
+msgstr "Ett okänt filformat har valts för export <%s>"
+
+#: src/sk1/application.py:516
+msgid "Cannot export palette:"
+msgstr "Kan inte exportera paletten:"
+
+#: src/sk1/application.py:526
+msgid "Palette is successfully exported"
+msgstr "Paletten har exporterats"
+
+#: src/sk1/application.py:533
+msgid "Select palette to import"
+msgstr "Välj palett att importera"
+
+#: src/sk1/application.py:536 src/sk1/document/presenter.py:75
+msgid "Opening file..."
+msgstr "Öppnar fil …"
+
+#: src/sk1/application.py:540 src/sk1/document/presenter.py:70
+#: src/sk1/document/presenter.py:191
+#, python-format
+msgid "Loader is not found for <%s>"
+msgstr "Ingen inläsare hittades för <%s>"
+
+#: src/sk1/application.py:544
+msgid "Error while opening"
+msgstr "Fel vid öppning"
+
+#: src/sk1/application.py:547
+msgid "Palette is successfully imported"
+msgstr "Paletten har importerats"
+
+#: src/sk1/application.py:566
+msgid "Save pattern as..."
+msgstr "Spara mönster som …"
+
+#: src/sk1/application.py:575
+msgid "Cannot save pattern from:"
+msgstr "Kan inte spara mönster från:"
+
+#: src/sk1/application.py:587
+msgid "Select pattern to load"
+msgstr "Välj mönster att läsa in"
+
+#: src/sk1/application.py:590
+msgid "Cannot load pattern for:"
+msgstr "Kan inte läsa in mönster för:"
+
+#: src/sk1/application.py:632
+msgid "Requested page was opened in the default browser"
+msgstr "Den begärda sidan öppnades i standardwebbläsaren"
+
+#: src/sk1/context/circle.py:73
+msgid "Pie slice"
+msgstr "Cirkelsektor"
+
+#: src/sk1/context/circle.py:84
+msgid "Start angle"
+msgstr "Startvinkel"
+
+#: src/sk1/context/circle.py:85
+msgid "End angle"
+msgstr "Slutvinkel"
+
+#: src/sk1/context/markup.py:137
+msgid "Bold"
+msgstr "Fet"
+
+#: src/sk1/context/markup.py:154
+msgid "Strikethrough"
+msgstr "Genomstruken"
+
+#: src/sk1/context/polygon.py:38
+msgid "Number of polygon angles"
+msgstr "Antal polygonhörn"
+
+#: src/sk1/context/polygon.py:72
+msgid "Number of angles for newly created polygon"
+msgstr "Antal hörn för nya polygoner"
+
+#: src/sk1/context/rect.py:44
+msgid "Rounded rectangle"
+msgstr "Rundad rektangel"
+
+#: src/sk1/context/resize.py:38
+msgid "Selection size"
+msgstr "Markeringens storlek"
+
+#: src/sk1/context/text.py:42
+msgid "Align Left"
+msgstr "Vänsterjustera"
+
+#: src/sk1/context/text.py:43
+msgid "Centered"
+msgstr "Centrerad"
+
+#: src/sk1/context/text.py:44
+msgid "Align Right"
+msgstr "Högerjustera"
+
+#: src/sk1/context/text.py:106
+msgid "Use ligatures"
+msgstr "Använd ligaturer"
+
+#: src/sk1/context/transform.py:33
+msgid "Rotate selection"
+msgstr "Rotera markeringen"
+
+#: src/sk1/context/units.py:38 src/sk1/dialogs/docprops.py:332
+msgid "Document units"
+msgstr "Dokumentenheter"
+
+#: src/sk1/dialogs/aboutdlg.py:40
+msgid "Components"
+msgstr "Komponenter"
+
+#: src/sk1/dialogs/aboutdlg.py:42
+msgid "Thanks to"
+msgstr "Tack till"
+
+#: src/sk1/dialogs/aboutdlg.py:61
+msgid "vector graphics editor"
+msgstr "vektorgrafikredigerare"
+
+#: src/sk1/dialogs/aboutdlg.py:65
+msgid "build"
+msgstr "bygge"
+
+#: src/sk1/dialogs/aboutdlg.py:85
+msgid "Component"
+msgstr "Komponent"
+
+#: src/sk1/dialogs/colordlg.py:115
+msgid "Change color"
+msgstr "Ändra färg"
+
+#: src/sk1/dialogs/dashedit_dlg.py:79 src/sk1/dialogs/strokedlg.py:148
+msgid "Edit dash pattern"
+msgstr "Redigera streckmönster"
+
+#: src/sk1/dialogs/docinfodlg.py:82
+msgid "Name and location:"
+msgstr "Namn och plats:"
+
+#: src/sk1/dialogs/docinfodlg.py:89
+msgid "File size:"
+msgstr "Filstorlek:"
+
+#: src/sk1/dialogs/docinfodlg.py:90
+msgid "Modified:"
+msgstr "Ändrad:"
+
+#: src/sk1/dialogs/docinfodlg.py:103
+msgid "Layers:"
+msgstr "Lager:"
+
+#: src/sk1/dialogs/docinfodlg.py:104
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:112
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:93
+msgid "Page size:"
+msgstr "Sidstorlek:"
+
+#: src/sk1/dialogs/docinfodlg.py:105
+msgid "Page orientation:"
+msgstr "Sidorientering:"
+
+#: src/sk1/dialogs/docinfodlg.py:136
+msgid "Graphic Objects"
+msgstr "Grafiska objekt"
+
+#: src/sk1/dialogs/docinfodlg.py:137
+msgid "Number of objects:"
+msgstr "Antal objekt:"
+
+#: src/sk1/dialogs/docinfodlg.py:138
+msgid "Number of points:"
+msgstr "Antal punkter:"
+
+#: src/sk1/dialogs/docinfodlg.py:141
+msgid "Groups:"
+msgstr "Grupper:"
+
+#: src/sk1/dialogs/docinfodlg.py:142
+msgid "Rectangles:"
+msgstr "Rektanglar:"
+
+#: src/sk1/dialogs/docinfodlg.py:143
+msgid "Ellipses:"
+msgstr "Ellipser:"
+
+#: src/sk1/dialogs/docinfodlg.py:144
+msgid "Containers:"
+msgstr "Behållare:"
+
+#: src/sk1/dialogs/docinfodlg.py:145
+msgid "Polygons:"
+msgstr "Polygoner:"
+
+#: src/sk1/dialogs/docinfodlg.py:167
+msgid "Text Statistics"
+msgstr "Textstatistik"
+
+#: src/sk1/dialogs/docinfodlg.py:169
+msgid "No Text in this document."
+msgstr "Dokumentet innehåller ingen text."
+
+#: src/sk1/dialogs/docinfodlg.py:172
+msgid "Artistic text:"
+msgstr "Konstnärlig text:"
+
+#: src/sk1/dialogs/docinfodlg.py:173
+msgid "Lines:"
+msgstr "Rader:"
+
+#: src/sk1/dialogs/docinfodlg.py:174
+msgid "Words:"
+msgstr "Ord:"
+
+#: src/sk1/dialogs/docinfodlg.py:175
+msgid "Characters:"
+msgstr "Tecken:"
+
+#: src/sk1/dialogs/docinfodlg.py:177
+msgid "Fonts used:"
+msgstr "Använda typsnitt:"
+
+#: src/sk1/dialogs/docinfodlg.py:197
+msgid "Bitmap Objects"
+msgstr "Rasterbilder"
+
+#: src/sk1/dialogs/docinfodlg.py:201
+msgid "No Bitmaps in this document."
+msgstr "Dokumentet innehåller inga rasterbilder."
+
+#: src/sk1/dialogs/docinfodlg.py:242
+msgid "No fill:"
+msgstr "Ingen fyllning:"
+
+#: src/sk1/dialogs/docinfodlg.py:243 src/sk1/dialogs/docinfodlg.py:280
+msgid "Solid:"
+msgstr "Enfärgad:"
+
+#: src/sk1/dialogs/docinfodlg.py:244
+msgid "Gradients:"
+msgstr "Gradienter:"
+
+#: src/sk1/dialogs/docinfodlg.py:245
+msgid "Patterns:"
+msgstr "Mönster:"
+
+#: src/sk1/dialogs/docinfodlg.py:278
+msgid "Strokes"
+msgstr "Konturer"
+
+#: src/sk1/dialogs/docinfodlg.py:279
+msgid "No stroke:"
+msgstr "Ingen kontur:"
+
+#: src/sk1/dialogs/docinfodlg.py:306 src/sk1/dialogs/docprops.py:674
+msgid "Document info"
+msgstr "Dokumentinformation"
+
+#: src/sk1/dialogs/docprops.py:64 src/sk1/printing/propsdlg/pdfpropsdlg.py:205
+msgid "Author:"
+msgstr "Författare:"
+
+#: src/sk1/context/jump.py:33
+msgid "Default object jump"
+msgstr "Standardförflyttning för objekt"
+
+#: src/sk1/context/page_format.py:243
+msgid "Guide frame margin"
+msgstr "Marginal för stödlinjeram"
+
+#: src/sk1/dialogs/docinfodlg.py:129
+#, python-format
+msgid "%i, opened %i, closed %i"
+msgstr "%i, öppna %i, slutna %i"
+
+#: src/sk1/dialogs/docinfodlg.py:139
+msgid "Max. # of curve points:"
+msgstr "Maximalt antal kurvpunkter:"
+
+#: src/sk1/dialogs/docinfodlg.py:140
+msgid "Max. # of curve subpaths:"
+msgstr "Maximalt antal delbanor i kurvor:"
+
+#: src/sk1/dialogs/docinfodlg.py:249 src/sk1/dialogs/docinfodlg.py:284
+msgid "Objects and Color models"
+msgstr "Objekt och färgmodeller"
+
+#: src/sk1/dialogs/docprops.py:68
+msgid "License:"
+msgstr "Licens:"
+
+#: src/sk1/dialogs/docprops.py:76
+msgid "Notes:"
+msgstr "Anteckningar:"
+
+#: src/sk1/dialogs/docprops.py:126
+msgid "Default page:"
+msgstr "Standardsida:"
+
+#: src/sk1/dialogs/docprops.py:143
+msgid "As current page"
+msgstr "Som aktuell sida"
+
+#: src/sk1/dialogs/docprops.py:177
+msgid "Desktop:"
+msgstr "Arbetsyta:"
+
+#: src/sk1/dialogs/docprops.py:217
+msgid "Use pattern for page fill"
+msgstr "Använd mönster som sidfyllning"
+
+#: src/sk1/dialogs/docprops.py:227 src/sk1/resources/labels.py:93
+msgid "Show page border"
+msgstr "Visa sidkant"
+
+#: src/sk1/dialogs/docprops.py:315
+msgid "Left lower page corner"
+msgstr "Nedre vänstra sidhörnet"
+
+#: src/sk1/dialogs/docprops.py:315
+msgid "Left upper page corner"
+msgstr "Övre vänstra sidhörnet"
+
+#: src/sk1/dialogs/docprops.py:344
+msgid "Document origin"
+msgstr "Dokumentets origo"
+
+#: src/sk1/dialogs/docprops.py:354
+msgid "Value in points"
+msgstr "Värde i punkter"
+
+#: src/sk1/dialogs/docprops.py:357
+#, python-format
+msgid "%s points"
+msgstr "%s punkter"
+
+#: src/sk1/dialogs/docprops.py:445
+msgid "Grid origin"
+msgstr "Rutnätets origo"
+
+#: src/sk1/dialogs/docprops.py:462
+msgid "Grid frequency"
+msgstr "Rutnätets täthet"
+
+#: src/sk1/dialogs/docprops.py:499
+msgid "Grid opacity:"
+msgstr "Rutnätets opacitet:"
+
+#: src/sk1/dialogs/docprops.py:517
+msgid "Show grid on canvas"
+msgstr "Visa rutnät på arbetsytan"
+
+#: src/sk1/dialogs/docprops.py:525
+msgid "Grid preview:"
+msgstr "Förhandsvisning av rutnät:"
+
+#: src/sk1/dialogs/docprops.py:610
+msgid "Guide color:"
+msgstr "Stödlinjefärg:"
+
+#: src/sk1/dialogs/docprops.py:624
+msgid "Show guides on canvas"
+msgstr "Visa stödlinjer på arbetsytan"
+
+#: src/sk1/dialogs/docprops.py:629
+msgid "Edit guides"
+msgstr "Redigera stödlinjer"
+
+#: src/sk1/dialogs/docprops.py:673
+msgid "Statistics..."
+msgstr "Statistik …"
+
+#: src/sk1/dialogs/docprops.py:706
+msgid "Document properties"
+msgstr "Dokumentegenskaper"
+
+#: src/sk1/dialogs/filedlgs.py:32 src/uc2/uc2const.py:122
+msgid "All supported formats"
+msgstr "Alla format som stöds"
+
+#: src/sk1/dialogs/filedlgs.py:42
+msgid "All files (*.*)"
+msgstr "Alla filer (*.*)"
+
+#: src/sk1/dialogs/filedlgs.py:96
+msgid "Select directory"
+msgstr "Välj katalog"
+
+#: src/sk1/dialogs/filelogviewer.py:55
+msgid "Clear log"
+msgstr "Rensa logg"
+
+#: src/sk1/dialogs/filelogviewer.py:70
+msgid "Status"
+msgstr "Status"
+
+#: src/sk1/dialogs/filelogviewer.py:70
+msgid "File name"
+msgstr "Filnamn"
+
+#: src/sk1/dialogs/filelogviewer.py:74
+msgid "Opened"
+msgstr "Öppnad"
+
+#: src/sk1/dialogs/filelogviewer.py:96
+msgid "is not found."
+msgstr "hittades inte."
+
+#: src/sk1/dialogs/filelogviewer.py:97
+msgid "File not found"
+msgstr "Filen hittades inte"
+
+#: src/sk1/dialogs/filelogviewer.py:119
+msgid "Recent documents"
+msgstr "Senaste dokument"
+
+#: src/sk1/dialogs/logconsole.py:134
+msgid "Select log to open"
+msgstr "Välj logg att öppna"
+
+#: src/sk1/dialogs/logconsole.py:144 src/sk1/dialogs/logconsole.py:169
+msgid "Save logs as..."
+msgstr "Spara loggar som …"
+
+#: src/sk1/dialogs/logconsole.py:168
+msgid "Open log file..."
+msgstr "Öppna loggfil …"
+
+#: src/sk1/dialogs/pagedlg.py:33
+msgid "Page No.:"
+msgstr "Sidnummer:"
+
+#: src/sk1/dialogs/pagedlg.py:48
+msgid "Go to page"
+msgstr "Gå till sida"
+
+#: src/sk1/dialogs/pagedlg.py:61
+msgid "Delete page No.:"
+msgstr "Ta bort sida nummer:"
+
+#: src/sk1/dialogs/pagedlg.py:96
+msgid "Insert:"
+msgstr "Infoga:"
+
+#: src/sk1/dialogs/pagedlg.py:102
+msgid "page(s)"
+msgstr "sidor"
+
+#: src/sk1/dialogs/pagedlg.py:115
+msgid "Before"
+msgstr "Före"
+
+#: src/sk1/dialogs/pagedlg.py:117
+msgid "After"
+msgstr "Efter"
+
+#: src/sk1/dialogs/pagedlg.py:122
+msgid "page No.:"
+msgstr "sidnummer:"
+
+#: src/sk1/dialogs/pagedlg.py:142
+msgid "Insert page"
+msgstr "Infoga sida"
+
+#: src/sk1/dialogs/palcoldlg.py:85
+msgid "Palette Collection"
+msgstr "Palettsamling"
+
+#: src/sk1/dialogs/palcoldlg.py:110
+msgid "Cannot connect to server!"
+msgstr "Kan inte ansluta till servern!"
+
+#: src/sk1/dialogs/palcoldlg.py:111
+msgid "Please check Internet connection"
+msgstr "Kontrollera internetanslutningen"
+
+#: src/sk1/dialogs/palcoldlg.py:112
+msgid "and access to https://sk1project.net"
+msgstr "och åtkomsten till https://sk1project.net"
+
+#: src/sk1/dialogs/palcoldlg.py:126
+msgid "Loading data..."
+msgstr "Läser in data …"
+
+#: src/sk1/dialogs/paletteinfo.py:43
+msgid "Palette name:"
+msgstr "Palettnamn:"
+
+#: src/sk1/dialogs/paletteinfo.py:47
+msgid "Palette source:"
+msgstr "Palettkälla:"
+
+#: src/sk1/dialogs/paletteinfo.py:84
+msgid "Palette info"
+msgstr "Palettinformation"
+
+#: src/sk1/dialogs/strokedlg.py:66
+msgid "Stroke Color"
+msgstr "Konturfärg"
+
+#: src/sk1/dialogs/strokedlg.py:67 src/sk1/dialogs/strokedlg.py:76
+msgid "Stroke Style"
+msgstr "Konturstil"
+
+#: src/sk1/dialogs/strokedlg.py:145
+msgid "Dashes:"
+msgstr "Streckmönster:"
+
+#: src/sk1/dialogs/strokedlg.py:162
+msgid "Join:"
+msgstr "Hörn:"
+
+#: src/sk1/dialogs/strokedlg.py:167
+msgid "Options:"
+msgstr "Alternativ:"
+
+#: src/sk1/dialogs/strokedlg.py:177
+msgid "Behind fill"
+msgstr "Bakom fyllning"
+
+#: src/sk1/dialogs/strokedlg.py:180
+msgid "Scalable stroke"
+msgstr "Skalbar kontur"
+
+#: src/sk1/document/presenter.py:80 src/sk1/document/presenter.py:195
+#, python-format
+msgid "Cannot load <%s>"
+msgstr "Kan inte läsa in <%s>"
+
+#: src/sk1/document/presenter.py:130 src/sk1/document/presenter.py:158
+msgid "Saving file..."
+msgstr "Sparar fil …"
+
+#: src/sk1/document/presenter.py:134 src/sk1/document/presenter.py:162
+#, python-format
+msgid "Unknown file format is requested for saving <%s>"
+msgstr "Ett okänt filformat har valts för att spara <%s>"
+
+#: src/sk1/document/presenter.py:187
+msgid "Importing..."
+msgstr "Importerar …"
+
+#: src/sk1/document/selection.py:52
+msgid " object in selection"
+msgstr " objekt i markeringen"
+
+#: src/sk1/document/selection.py:62
+msgid "objects in selection"
+msgstr "objekt i markeringen"
+
+#: src/sk1/parts/menubar.py:37
+msgid "Open &Recent"
+msgstr "Öppna &senaste"
+
+#: src/sk1/parts/menubar.py:43
+msgid "&File"
+msgstr "&Arkiv"
+
+#: src/sk1/parts/menubar.py:53
+msgid "&Edit"
+msgstr "&Redigera"
+
+#: src/sk1/parts/menubar.py:63
+msgid "&Show"
+msgstr "&Visa"
+
+#: src/sk1/parts/menubar.py:66
+msgid "S&nap to"
+msgstr "&Fäst mot"
+
+#: src/sk1/parts/menubar.py:70
+msgid "&View"
+msgstr "&Vy"
+
+#: src/sk1/parts/menubar.py:79
+msgid "&Layout"
+msgstr "&Layout"
+
+#: src/sk1/parts/menubar.py:84
+msgid "Trans&form"
+msgstr "Trans&formera"
+
+#: src/sk1/parts/menubar.py:92
+msgid "&Order"
+msgstr "&Ordna"
+
+#: src/sk1/parts/menubar.py:96
+msgid "&Shaping"
+msgstr "&Formning"
+
+#: src/sk1/parts/menubar.py:100
+msgid "&Arrange"
+msgstr "Arra&ngera"
+
+#: src/sk1/parts/menubar.py:114
+msgid "&Paths"
+msgstr "&Banor"
+
+#: src/sk1/parts/menubar.py:124
+msgid "&Bitmaps"
+msgstr "Ra&sterbilder"
+
+#: src/sk1/parts/menubar.py:132
+msgid "&Text"
+msgstr "&Text"
+
+#: src/sk1/parts/menubar.py:140
+msgid "&Help"
+msgstr "&Hjälp"
+
+#: src/sk1/parts/menubar.py:177
+msgid "Empty"
+msgstr "Tom"
+
+#: src/sk1/parts/palettepanel.py:45
+msgid "Scroll palette to left"
+msgstr "Rulla paletten åt vänster"
+
+#: src/sk1/parts/palettepanel.py:53 src/sk1/parts/palettepanel.py:122
+#: src/sk1/pwidgets/fillctrls.py:311
+msgid "Empty pattern"
+msgstr "Tomt mönster"
+
+#: src/sk1/parts/palettepanel.py:61
+msgid "Scroll palette to right"
+msgstr "Rulla paletten åt höger"
+
+#: src/sk1/parts/palettepanel.py:69 src/sk1/parts/palettepanel.py:140
+msgid "Manage palettes"
+msgstr "Hantera paletter"
+
+#: src/sk1/parts/palettepanel.py:114
+msgid "Scroll palette to top"
+msgstr "Rulla paletten uppåt"
+
+#: src/sk1/parts/palettepanel.py:131
+msgid "Scroll palette to bottom"
+msgstr "Rulla paletten nedåt"
+
+#: src/sk1/parts/statusbar.py:94
+msgid "Zoom level"
+msgstr "Zoomnivå"
+
+#: src/sk1/parts/statusbar.py:228 src/sk1/parts/statusbar.py:258
+msgid "Image type: "
+msgstr "Bildtyp: "
+
+#: src/sk1/parts/statusbar.py:237 src/sk1/pwidgets/colorctrls.py:472
+msgid "Stroke:"
+msgstr "Kontur:"
+
+#: src/sk1/parts/statusbar.py:289
+msgid "No coords"
+msgstr "Inga koordinater"
+
+#: src/sk1/parts/statusbar.py:317
+msgid "Go to fist page"
+msgstr "Gå till första sidan"
+
+#: src/sk1/parts/statusbar.py:327
+msgid "Go to previous page"
+msgstr "Gå till föregående sida"
+
+#: src/sk1/parts/statusbar.py:340
+msgid "Go to next page"
+msgstr "Gå till nästa sida"
+
+#: src/sk1/parts/statusbar.py:350
+msgid "Go to last page"
+msgstr "Gå till sista sidan"
+
+#: src/sk1/parts/statusbar.py:383
+#, python-format
+msgid "Page %i of %i"
+msgstr "Sida %i av %i"
+
+#: src/sk1/parts/stubpanel.py:40
+msgid "Open Recent"
+msgstr "Öppna senaste"
+
+#: src/sk1/prefs/__init__.py:92
+msgid "Restore defaults"
+msgstr "Återställ standardvärden"
+
+#: src/sk1/prefs/__init__.py:141
+msgid "sK1 Preferences"
+msgstr "Inställningar för sK1"
+
+#: src/sk1/prefs/prefs_canvas.py:26
+msgid "Canvas"
+msgstr "Arbetsyta"
+
+#: src/sk1/prefs/prefs_canvas.py:27
+msgid "Canvas marker preferences"
+msgstr "Inställningar för markörer på arbetsytan"
+
+#: src/sk1/prefs/prefs_cms.py:36
+msgid "Color management, profiles"
+msgstr "Färghantering och profiler"
+
+#: src/sk1/prefs/prefs_cms.py:90
+msgid "Enable Color Management"
+msgstr "Aktivera färghantering"
+
+#: src/sk1/prefs/prefs_cms.py:105
+msgid ""
+"Note: If Color Management is disabled, color values will be inaccurate."
+msgstr ""
+"Observera: Om färghanteringen är inaktiverad blir färgvärdena inte korrekta."
+
+#: src/sk1/prefs/prefs_cms.py:135
+msgid "Color space profiles"
+msgstr "Färgrymdsprofiler"
+
+#: src/sk1/prefs/prefs_cms.py:153
+#, python-format
+msgid "%s profile:"
+msgstr "%s-profil:"
+
+#: src/sk1/prefs/prefs_cms.py:163
+msgid "Hardware profiles"
+msgstr "Maskinvaruprofiler"
+
+#: src/sk1/prefs/prefs_cms.py:170
+msgid "Display profile:"
+msgstr "Bildskärmsprofil:"
+
+#: src/sk1/prefs/prefs_cms.py:180
+msgid "Use display profile"
+msgstr "Använd bildskärmsprofil"
+
+#: src/sk1/prefs/prefs_cms.py:187
+msgid "Note: Display profile for your hardware can be found here:"
+msgstr "Observera: En bildskärmsprofil för din maskinvara finns här:"
+
+#: src/sk1/prefs/prefs_cms.py:242 src/sk1/prefs/prefs_cms.py:350
+#, python-format
+msgid "Built-in %s profile"
+msgstr "Inbyggd %s-profil"
+
+#: src/sk1/prefs/prefs_cms.py:282
+#, python-format
+msgid "Add/remove %s profiles"
+msgstr "Lägg till eller ta bort %s-profiler"
+
+#: src/sk1/prefs/prefs_cms.py:318
+#, python-format
+msgid "%s profiles"
+msgstr "%s-profiler"
+
+#: src/sk1/prefs/prefs_cms.py:382
+msgid "Select profile to import"
+msgstr "Välj profil att importera"
+
+#: src/sk1/prefs/prefs_cms.py:389
+msgid "Cannot open profile"
+msgstr "Kan inte öppna profilen"
+
+#: src/sk1/prefs/prefs_cms.py:391
+msgid "The profile may be corrupted or in an unsupported format"
+msgstr "Profilen kan vara skadad eller ha ett format som inte stöds"
+
+#: src/sk1/prefs/prefs_cms.py:395
+msgid "Selected profile cannot be added to profile list:"
+msgstr "Den valda profilen kan inte läggas till i profillistan:"
+
+#: src/sk1/prefs/prefs_cms.py:397
+msgid "It seems like you have already imported this profile"
+msgstr "Du verkar redan ha importerat den här profilen"
+
+#: src/sk1/prefs/prefs_cms.py:404
+msgid "Selected file has been added to profile pool"
+msgstr "Den valda filen har lagts till i profilsamlingen"
+
+#: src/sk1/prefs/prefs_cms.py:406
+msgid "If you still wish to import the file, try renaming it"
+msgstr "Om du ändå vill importera filen kan du försöka byta namn på den"
+
+#: src/sk1/prefs/prefs_cms.py:412
+msgid "Cannot copy file"
+msgstr "Kan inte kopiera filen"
+
+#: src/sk1/prefs/prefs_cms.py:414
+msgid "Please check write permissions for config directory:"
+msgstr "Kontrollera skrivrättigheterna för konfigurationskatalogen:"
+
+#: src/sk1/prefs/prefs_cms.py:453
+msgid "Profile info"
+msgstr "Profilinformation"
+
+#: src/sk1/prefs/prefs_cms.py:471
+msgid "Copyright:"
+msgstr "Upphovsrätt:"
+
+#: src/sk1/prefs/prefs_cms.py:501
+msgid "Rendering intents"
+msgstr "Återgivningsmetoder"
+
+#: src/sk1/prefs/prefs_cms.py:504
+msgid "Display/RGB intent:"
+msgstr "Återgivningsmetod för bildskärm/RGB:"
+
+#: src/sk1/prefs/prefs_cms.py:509
+msgid "Printer/CMYK intent:"
+msgstr "Återgivningsmetod för skrivare/CMYK:"
+
+#: src/sk1/prefs/prefs_cms.py:518
+msgid "Simulate printer on the screen"
+msgstr "Simulera skrivaren på skärmen"
+
+#: src/sk1/prefs/prefs_cms.py:525
+msgid "Highlight colors that are outside of the printer's gamut"
+msgstr "Markera färger som ligger utanför skrivarens färgomfång"
+
+#: src/sk1/prefs/prefs_cms.py:533
+msgid "Highlight color:"
+msgstr "Markeringsfärg:"
+
+#: src/sk1/prefs/prefs_cms.py:539
+msgid "Separation for SPOT colors"
+msgstr "Separation för dekorfärger"
+
+#: src/sk1/prefs/prefs_cms.py:548
+msgid "Use Blackpoint Compensation"
+msgstr "Använd svartpunktskompensation"
+
+#: src/sk1/prefs/prefs_cms.py:556
+msgid "Use Black preserving transforms"
+msgstr "Använd omvandlingar som bevarar svart"
+
+#: src/sk1/prefs/prefs_fonts.py:29
+msgid "Font preview preferences"
+msgstr "Inställningar för typsnittsförhandsvisning"
+
+#: src/sk1/prefs/prefs_fonts.py:45
+msgid "Placeholder text:"
+msgstr "Platshållartext:"
+
+#: src/sk1/prefs/prefs_fonts.py:57
+msgid "Selection color:"
+msgstr "Markeringsfärg:"
+
+#: src/sk1/prefs/prefs_fonts.py:62
+msgid "Preview width:"
+msgstr "Förhandsvisningens bredd:"
+
+#: src/sk1/prefs/prefs_general.py:42 src/sk1/prefs/prefs_ui.py:42
+msgid "system"
+msgstr "system"
+
+#: src/sk1/prefs/prefs_general.py:59
+msgid "General application preferences"
+msgstr "Allmänna programinställningar"
+
+#: src/sk1/prefs/prefs_general.py:79
+msgid "New document on start"
+msgstr "Nytt dokument vid start"
+
+#: src/sk1/prefs/prefs_general.py:85
+msgid "Backup on document save"
+msgstr "Säkerhetskopiera när dokument sparas"
+
+#: src/sk1/prefs/prefs_general.py:91
+msgid "Backup on export"
+msgstr "Säkerhetskopiera vid export"
+
+#: src/sk1/prefs/prefs_general.py:97
+msgid "Make font cache on start"
+msgstr "Skapa typsnittscache vid start"
+
+#: src/sk1/prefs/prefs_general.py:103
+msgid "Run as server"
+msgstr "Kör som server"
+
+#: src/sk1/prefs/prefs_general.py:109
+msgid "History log size:"
+msgstr "Historikloggens storlek:"
+
+#: src/sk1/prefs/prefs_general.py:115
+msgid "History menu size:"
+msgstr "Historikmenyns storlek:"
+
+#: src/sk1/prefs/prefs_general.py:122
+msgid "Logging level (*):"
+msgstr "Loggnivå (*):"
+
+#: src/sk1/prefs/prefs_general.py:132 src/sk1/prefs/prefs_ui.py:153
+msgid "(*) - Application restart is required to apply these options"
+msgstr "(*) Programmet måste startas om för att inställningarna ska tillämpas"
+
+#: src/sk1/prefs/prefs_palettes.py:30
+msgid "Palettes"
+msgstr "Paletter"
+
+#: src/sk1/prefs/prefs_palettes.py:31 src/sk1/prefs/prefs_palettes.py:144
+msgid "Palette management"
+msgstr "Paletthantering"
+
+#: src/sk1/prefs/prefs_palettes.py:58
+msgid "Current palette:"
+msgstr "Aktuell palett:"
+
+#: src/sk1/prefs/prefs_palettes.py:69
+msgid "Palette orientation:"
+msgstr "Palettens orientering:"
+
+#: src/sk1/prefs/prefs_palettes.py:84
+msgid "Vertical palette"
+msgstr "Vertikal palett"
+
+#: src/sk1/prefs/prefs_palettes.py:90 src/sk1/prefs/prefs_palettes.py:114
+msgid "Cell width:"
+msgstr "Cellbredd:"
+
+#: src/sk1/prefs/prefs_palettes.py:98 src/sk1/prefs/prefs_palettes.py:121
+msgid "Cell height:"
+msgstr "Cellhöjd:"
+
+#: src/sk1/prefs/prefs_palettes.py:108
+msgid "Horizontal palette"
+msgstr "Horisontell palett"
+
+#: src/sk1/prefs/prefs_palettes.py:132
+msgid "Expand short palettes"
+msgstr "Expandera korta paletter"
+
+#: src/sk1/prefs/prefs_palettes.py:140
+msgid "Palette options"
+msgstr "Palettalternativ"
+
+#: src/sk1/prefs/prefs_palettes.py:241
+msgid "Edit info"
+msgstr "Redigera information"
+
+#: src/sk1/prefs/prefs_palettes.py:248
+msgid "Download more palettes"
+msgstr "Hämta fler paletter"
+
+#: src/sk1/prefs/prefs_printers.py:29
+msgid "Printers"
+msgstr "Skrivare"
+
+#: src/sk1/prefs/prefs_printers.py:30
+msgid "Printer calibration"
+msgstr "Skrivarkalibrering"
+
+#: src/sk1/prefs/prefs_printers.py:65
+msgid "Printer:"
+msgstr "Skrivare:"
+
+#: src/sk1/prefs/prefs_printers.py:86
+msgid "Printing shift"
+msgstr "Utskriftsförskjutning"
+
+#: src/sk1/prefs/prefs_printers.py:92
+msgid "Horizontal shift:"
+msgstr "Horisontell förskjutning:"
+
+#: src/sk1/prefs/prefs_printers.py:99
+msgid "Vertical shift:"
+msgstr "Vertikal förskjutning:"
+
+#: src/sk1/prefs/prefs_printers.py:114
+msgid "Printing margins"
+msgstr "Utskriftsmarginaler"
+
+#: src/sk1/prefs/prefs_printers.py:156
+msgid ""
+"To measure actual print area and vertical/horizontal printing shift, just "
+"print the calibration page on A4/Letter paper."
+msgstr ""
+"Skriv ut kalibreringssidan på A4- eller Letter-papper för att mäta den "
+"faktiska utskriftsytan och den vertikala och horisontella förskjutningen."
+
+#: src/sk1/prefs/prefs_printers.py:165
+msgid "Print A4 calibration page"
+msgstr "Skriv ut kalibreringssida för A4"
+
+#: src/sk1/prefs/prefs_printers.py:172
+msgid "Print Letter calibration page"
+msgstr "Skriv ut kalibreringssida för Letter"
+
+#: src/sk1/prefs/prefs_printers.py:181
+msgid "No printers found"
+msgstr "Inga skrivare hittades"
+
+#: src/sk1/prefs/prefs_ruler.py:31
+msgid "Ruler colors, fonts, sizes"
+msgstr "Linjalfärger, typsnitt och storlekar"
+
+#: src/sk1/prefs/prefs_ruler.py:48
+msgid "Size (px):"
+msgstr "Storlek (px):"
+
+#: src/sk1/prefs/prefs_ruler.py:53
+msgid "Ruler:"
+msgstr "Linjal:"
+
+#: src/sk1/prefs/prefs_ruler.py:59
+msgid "Ruler font:"
+msgstr "Linjalens typsnitt:"
+
+#: src/sk1/prefs/prefs_ruler.py:65
+msgid "Small tick:"
+msgstr "Litet skalstreck:"
+
+#: src/sk1/prefs/prefs_ruler.py:71
+msgid "Large tick:"
+msgstr "Stort skalstreck:"
+
+#: src/sk1/prefs/prefs_ruler.py:78
+msgid "Text shift (px):"
+msgstr "Textförskjutning (px):"
+
+#: src/sk1/prefs/prefs_ruler.py:101
+msgid "Ruler background color:"
+msgstr "Linjalens bakgrundsfärg:"
+
+#: src/sk1/prefs/prefs_ruler.py:107
+msgid "Ruler mark color:"
+msgstr "Linjalens graderingsfärg:"
+
+#: src/sk1/prefs/prefs_ruler.py:115
+msgid "Ruler preview:"
+msgstr "Förhandsvisning av linjal:"
+
+#: src/sk1/prefs/prefs_ui.py:58
+msgid "UI"
+msgstr "Gränssnitt"
+
+#: src/sk1/prefs/prefs_ui.py:59
+msgid "User interface preferences"
+msgstr "Inställningar för användargränssnitt"
+
+#: src/sk1/prefs/prefs_ui.py:82
+msgid "Language (*):"
+msgstr "Språk (*):"
+
+#: src/sk1/prefs/prefs_ui.py:91
+msgid "UI style (*):"
+msgstr "Gränssnittsstil (*):"
+
+#: src/sk1/prefs/prefs_ui.py:94
+msgid "Tabbed"
+msgstr "Med flikar"
+
+#: src/sk1/prefs/prefs_ui.py:99
+msgid "Tab style:"
+msgstr "Flikstil:"
+
+#: src/sk1/prefs/prefs_ui.py:102
+msgid "Rectangular tabs"
+msgstr "Rektangulära flikar"
+
+#: src/sk1/prefs/prefs_ui.py:103
+msgid "Rounded tabs"
+msgstr "Rundade flikar"
+
+#: src/sk1/prefs/prefs_ui.py:104
+msgid "Flat tabs"
+msgstr "Platta flikar"
+
+#: src/sk1/prefs/prefs_ui.py:105
+msgid "Trapezoidal tabs"
+msgstr "Trapetsformade flikar"
+
+#: src/sk1/prefs/prefs_ui.py:111
+msgid "Show quick access buttons"
+msgstr "Visa snabbknappar"
+
+#: src/sk1/prefs/prefs_ui.py:125
+msgid "Use overlay for spinbox widgets (*)"
+msgstr "Använd överlägg för sifferväljare (*)"
+
+#: src/sk1/prefs/prefs_ui.py:130
+msgid "Separate spin in spinbox widgets (*)"
+msgstr "Separera knapparna i sifferväljare (*)"
+
+#: src/sk1/prefs/prefs_ui.py:135
+msgid "Unity related features"
+msgstr "Unity-relaterade funktioner"
+
+#: src/sk1/prefs/prefs_ui.py:140
+msgid "Use Unity Global Menu (*)"
+msgstr "Använd Unitys globala meny (*)"
+
+#: src/sk1/prefs/prefs_ui.py:145
+msgid "Allow overlay for scrollbars (*)"
+msgstr "Tillåt överlägg för rullningslister (*)"
+
+#: src/sk1/prefs/templates.py:26
+msgid "Grid and guides"
+msgstr "Rutnät och stödlinjer"
+
+#: src/sk1/prefs/templates.py:27
+msgid "Grid and guides options"
+msgstr "Alternativ för rutnät och stödlinjer"
+
+#: src/sk1/printing/cups_print.py:56 src/sk1/printing/pdf_printer.py:30
+#: src/uc2/formats/cgm/cgm_to_sk2.py:220 src/uc2/formats/dst/dst_to_sk2.py:146
+#: src/uc2/formats/pdxf/methods.py:101
+#: src/uc2/formats/pes/pes_translators.py:67
+#: src/uc2/formats/sk2/sk2_methods.py:148
+msgid "Custom size"
+msgstr "Anpassad storlek"
+
+#: src/sk1/printing/cups_print.py:200 src/sk1/printing/pdf_printer.py:75
+msgid "Driver:"
+msgstr "Drivrutin:"
+
+#: src/sk1/printing/cups_print.py:201 src/sk1/printing/pdf_printer.py:76
+msgid "Connection"
+msgstr "Anslutning"
+
+#: src/sk1/printing/cups_print.py:253 src/sk1/printing/pdf_printer.py:101
+msgid "Printing in progress..."
+msgstr "Utskrift pågår …"
+
+#: src/sk1/printing/cups_print.py:273 src/sk1/printing/msw_print.py:133
+msgid "Loading calibration page..."
+msgstr "Läser in kalibreringssidan …"
+
+#: src/sk1/printing/cups_print.py:280 src/sk1/printing/msw_print.py:139
+msgid "Error while printing of calibration page!"
+msgstr "Fel vid utskrift av kalibreringssidan!"
+
+#: src/sk1/printing/cups_print.py:281 src/sk1/printing/msw_print.py:140
+msgid "Check your printer status and connection."
+msgstr "Kontrollera skrivarens status och anslutning."
+
+#: src/sk1/printing/generic.py:146
+msgid "Printing..."
+msgstr "Skriver ut …"
+
+#: src/sk1/printing/generic.py:151
+msgid "Error while printing!"
+msgstr "Fel vid utskrift!"
+
+#: src/sk1/printing/msw_print.py:72
+msgid "Default printer"
+msgstr "Standardskrivare"
+
+#: src/sk1/printing/pdf_printer.py:34
+msgid "Print to file (PDF)"
+msgstr "Skriv ut till fil (PDF)"
+
+#: src/sk1/printing/pdf_printer.py:54
+msgid "Internal PDF writer"
+msgstr "Intern PDF-skrivare"
+
+#: src/sk1/printing/pdf_printer.py:57
+msgid "Software interface"
+msgstr "Programvarugränssnitt"
+
+#: src/sk1/printing/pdf_printer.py:60
+msgid "Idle"
+msgstr "Inaktiv"
+
+#: src/sk1/printing/pdf_printer.py:128
+msgid "Select output file"
+msgstr "Välj utdatafil"
+
+#: src/sk1/pwidgets/colorctrls.py:45
+msgid "Fill any contour"
+msgstr "Fyll alla konturer"
+
+#: src/sk1/pwidgets/colorctrls.py:46
+msgid "Fill closed only"
+msgstr "Fyll endast slutna konturer"
+
+#: src/sk1/pwidgets/colorctrls.py:49
+msgid "Evenodd fill"
+msgstr "Fyll enligt jämn-udda-regeln"
+
+#: src/sk1/pwidgets/colorctrls.py:50
+msgid "Nonzero fill"
+msgstr "Fyll enligt icke-nollregeln"
+
+#: src/sk1/pwidgets/colorctrls.py:476 src/sk1/pwidgets/patternctrls.py:116
+msgid "Bg:"
+msgstr "Bakgrund:"
+
+#: src/sk1/pwidgets/colorctrls.py:507 src/sk1/pwidgets/patternctrls.py:108
+msgid "Fg:"
+msgstr "Förgrund:"
+
+#: src/sk1/pwidgets/colorctrls.py:546
+msgid "Old color:"
+msgstr "Tidigare färg:"
+
+#: src/sk1/pwidgets/colorctrls.py:552
+msgid "New color:"
+msgstr "Ny färg:"
+
+#: src/sk1/pwidgets/colorctrls.py:569 src/sk1/pwidgets/colorctrls.py:591
+msgid "Old fill:"
+msgstr "Tidigare fyllning:"
+
+#: src/sk1/pwidgets/colorctrls.py:575 src/sk1/pwidgets/colorctrls.py:597
+msgid "New fill:"
+msgstr "Ny fyllning:"
+
+#: src/sk1/pwidgets/colorctrls.py:890
+msgid "HTML notation:"
+msgstr "HTML-notation:"
+
+#: src/sk1/pwidgets/colorctrls.py:1187
+msgid "color"
+msgstr "färg"
+
+#: src/sk1/pwidgets/colorctrls.py:1219
+msgid "Palette:"
+msgstr "Palett:"
+
+#: src/sk1/pwidgets/fillctrls.py:260
+msgid "Empty pattern selected"
+msgstr "Ett tomt mönster är valt"
+
+#: src/sk1/pwidgets/fillctrls.py:306 src/sk1/pwidgets/fillctrls.py:457
+msgid "CMYK color space"
+msgstr "CMYK-färgrymd"
+
+#: src/sk1/pwidgets/fillctrls.py:307 src/sk1/pwidgets/fillctrls.py:458
+msgid "RGB color space"
+msgstr "RGB-färgrymd"
+
+#: src/sk1/pwidgets/fillctrls.py:308 src/sk1/pwidgets/fillctrls.py:459
+msgid "Grayscale color space"
+msgstr "Gråskala"
+
+#: src/sk1/pwidgets/fillctrls.py:309
+msgid "SPOT colors"
+msgstr "Dekorfärger"
+
+#: src/sk1/pwidgets/fillctrls.py:310
+msgid "Color from palette"
+msgstr "Färg från palett"
+
+#: src/sk1/pwidgets/fillctrls.py:358
+msgid "Solid Fill"
+msgstr "Enfärgad fyllning"
+
+#: src/sk1/pwidgets/fillctrls.py:469
+msgid "Gradient Fill"
+msgstr "Gradientfyllning"
+
+#: src/sk1/pwidgets/fillctrls.py:594
+msgid "Pattern Fill"
+msgstr "Mönsterfyllning"
+
+#: src/sk1/pwidgets/gradientctrls.py:155
+msgid "Gradient stop"
+msgstr "Gradientstopp"
+
+#: src/sk1/pwidgets/gradientctrls.py:158
+msgid "Color value:"
+msgstr "Färgvärde:"
+
+#: src/sk1/pwidgets/gradientctrls.py:161
+msgid "Change stop color"
+msgstr "Ändra stoppets färg"
+
+#: src/sk1/pwidgets/gradientctrls.py:362
+msgid "Select first stop"
+msgstr "Välj första stoppet"
+
+#: src/sk1/pwidgets/gradientctrls.py:368
+msgid "Select previous stop"
+msgstr "Välj föregående stopp"
+
+#: src/sk1/pwidgets/gradientctrls.py:374
+msgid "Select next stop"
+msgstr "Välj nästa stopp"
+
+#: src/sk1/pwidgets/gradientctrls.py:380
+msgid "Select last stop"
+msgstr "Välj sista stoppet"
+
+#: src/sk1/pwidgets/gradientctrls.py:390
+msgid "Add stop"
+msgstr "Lägg till stopp"
+
+#: src/sk1/pwidgets/gradientctrls.py:396
+msgid "Delete selected stop"
+msgstr "Ta bort markerat stopp"
+
+#: src/sk1/pwidgets/gradientctrls.py:408
+msgid "Keep gradient vector"
+msgstr "Behåll gradientvektorn"
+
+#: src/sk1/pwidgets/palette_viewer.py:37
+msgid "Auto mode"
+msgstr "Automatiskt läge"
+
+#: src/sk1/pwidgets/palette_viewer.py:38
+msgid "Small cells"
+msgstr "Små celler"
+
+#: src/sk1/pwidgets/palette_viewer.py:39
+msgid "Large cells"
+msgstr "Stora celler"
+
+#: src/sk1/pwidgets/palette_viewer.py:40
+msgid "List view"
+msgstr "Listvy"
+
+#: src/sk1/pwidgets/palette_viewer.py:248
+msgid "Palette preview:"
+msgstr "Förhandsvisning av palett:"
+
+#: src/sk1/pwidgets/patternctrls.py:109
+msgid "Change pattern foreground color"
+msgstr "Ändra mönstrets förgrundsfärg"
+
+#: src/sk1/pwidgets/patternctrls.py:117
+msgid "Change pattern background color"
+msgstr "Ändra mönstrets bakgrundsfärg"
+
+#: src/sk1/pwidgets/patternctrls.py:155
+msgid "Horizontal origin shift"
+msgstr "Horisontell origoförskjutning"
+
+#: src/sk1/pwidgets/patternctrls.py:165
+msgid "Vertical origin shift"
+msgstr "Vertikal origoförskjutning"
+
+#: src/sk1/pwidgets/patternctrls.py:173
+msgid "Scale horizontally"
+msgstr "Skala horisontellt"
+
+#: src/sk1/pwidgets/patternctrls.py:184
+msgid "Scale vertically"
+msgstr "Skala vertikalt"
+
+#: src/sk1/pwidgets/patternctrls.py:193
+msgid "Shear horizontally"
+msgstr "Skjuva horisontellt"
+
+#: src/sk1/pwidgets/patternctrls.py:204
+msgid "Shear vertically"
+msgstr "Skjuva vertikalt"
+
+#: src/sk1/pwidgets/patternctrls.py:216
+msgid "Rotate pattern"
+msgstr "Rotera mönstret"
+
+#: src/sk1/pwidgets/patternctrls.py:285
+msgid "Transformation matrix:"
+msgstr "Transformationsmatris:"
+
+#: src/sk1/pwidgets/patternctrls.py:418
+msgid "Load pattern from file"
+msgstr "Läs in mönster från fil"
+
+#: src/sk1/pwidgets/patternctrls.py:422
+msgid "Save pattern into file"
+msgstr "Spara mönster till fil"
+
+#: src/sk1/pwidgets/strokectrls.py:161
+msgid "Line exactly at the point"
+msgstr "Linjen slutar vid punkten"
+
+#: src/sk1/pwidgets/strokectrls.py:162
+msgid "Round ending"
+msgstr "Rundat avslut"
+
+#: src/sk1/pwidgets/strokectrls.py:163
+msgid "Squared ending"
+msgstr "Fyrkantigt avslut"
+
+#: src/sk1/pwidgets/strokectrls.py:188
+msgid "Cut-off join"
+msgstr "Avfasat hörn"
+
+#: src/sk1/pwidgets/strokectrls.py:189
+msgid "Sharp (angled) corner"
+msgstr "Spetsigt hörn"
+
+#: src/sk1/pwidgets/strokectrls.py:190
+msgid "Rounded join"
+msgstr "Rundat hörn"
+
+#: src/sk1/pwidgets/unitctrls.py:149
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:210
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:306
+msgid "Keep ratio"
+msgstr "Behåll proportioner"
+
+#: src/sk1/pwidgets/unitctrls.py:150
+msgid "Don't keep ratio"
+msgstr "Behåll inte proportioner"
+
+#: src/sk1/resources/labels.py:26
+msgid "Selection mode (Esc)"
+msgstr "Markeringsläge (Esc)"
+
+#: src/sk1/resources/labels.py:27
+msgid "Edit mode (Space)"
+msgstr "Redigeringsläge (mellanslag)"
+
+#: src/sk1/resources/labels.py:28
+msgid "Zoom mode (F2)"
+msgstr "Zoomläge (F2)"
+
+#: src/sk1/resources/labels.py:29
+msgid "Pan mode"
+msgstr "Panoreringsläge"
+
+#: src/sk1/resources/labels.py:30
+msgid "Create polyline"
+msgstr "Skapa polylinje"
+
+#: src/sk1/resources/labels.py:31
+msgid "Create curve"
+msgstr "Skapa kurva"
+
+#: src/sk1/resources/labels.py:34
+msgid "Create text (F8)"
+msgstr "Skapa text (F8)"
+
+#: src/sk1/resources/labels.py:35
+msgid "Create polygon"
+msgstr "Skapa polygon"
+
+#: src/sk1/resources/labels.py:36
+msgid "Zoom out mode"
+msgstr "Utzoomningsläge"
+
+#: src/sk1/resources/labels.py:37
+msgid "Move mode"
+msgstr "Flyttläge"
+
+#: src/sk1/resources/labels.py:38
+msgid "Copy mode"
+msgstr "Kopieringsläge"
+
+#: src/sk1/resources/labels.py:40
+msgid "Stroke..."
+msgstr "Kontur …"
+
+#: src/sk1/resources/labels.py:41
+msgid "Fill..."
+msgstr "Fyllning …"
+
+#: src/sk1/resources/labels.py:43
+msgid "Copy fill from..."
+msgstr "Kopiera fyllning från …"
+
+#: src/sk1/resources/labels.py:44
+msgid "Copy stroke from..."
+msgstr "Kopiera kontur från …"
+
+#: src/sk1/resources/labels.py:46
+msgid "&New"
+msgstr "&Nytt"
+
+#: src/sk1/resources/labels.py:46
+msgid "New document"
+msgstr "Nytt dokument"
+
+#: src/sk1/resources/labels.py:48
+msgid "New From Template..."
+msgstr "Nytt från mall …"
+
+#: src/sk1/resources/labels.py:48
+msgid "New document from template..."
+msgstr "Nytt dokument från mall …"
+
+#: src/sk1/resources/labels.py:49
+msgid "&Open..."
+msgstr "Ö&ppna …"
+
+#: src/sk1/resources/labels.py:49
+msgid "Open document"
+msgstr "Öppna dokument"
+
+#: src/sk1/resources/labels.py:50
+msgid "&Clear history"
+msgstr "&Rensa historik"
+
+#: src/sk1/resources/labels.py:51
+msgid "&Save"
+msgstr "&Spara"
+
+#: src/sk1/resources/labels.py:52
+msgid "Save &As..."
+msgstr "Spara s&om …"
+
+#: src/sk1/resources/labels.py:52
+msgid "Save document as..."
+msgstr "Spara dokument som …"
+
+#: src/sk1/resources/labels.py:54
+msgid "Save Selected Only..."
+msgstr "Spara endast markerade …"
+
+#: src/sk1/resources/labels.py:54
+msgid "Save selected objects only..."
+msgstr "Spara endast markerade objekt …"
+
+#: src/sk1/resources/labels.py:55
+msgid "Save all documents"
+msgstr "Spara alla dokument"
+
+#: src/sk1/resources/labels.py:56
+msgid "&Import..."
+msgstr "&Importera …"
+
+#: src/sk1/resources/labels.py:56
+msgid "Import graphics..."
+msgstr "Importera grafik …"
+
+#: src/sk1/resources/labels.py:57
+msgid "E&xport As..."
+msgstr "E&xportera som …"
+
+#: src/sk1/resources/labels.py:57
+msgid "Export graphics as..."
+msgstr "Exportera grafik som …"
+
+#: src/sk1/resources/labels.py:58
+msgid "&Close"
+msgstr "&Stäng"
+
+#: src/sk1/resources/labels.py:58
+msgid "Close document"
+msgstr "Stäng dokument"
+
+#: src/sk1/resources/labels.py:59
+msgid "Close All"
+msgstr "Stäng alla"
+
+#: src/sk1/resources/labels.py:59
+msgid "Close all documents"
+msgstr "Stäng alla dokument"
+
+#: src/sk1/resources/labels.py:60
+msgid "Close Others"
+msgstr "Stäng övriga"
+
+#: src/sk1/resources/labels.py:60
+msgid "Close other documents"
+msgstr "Stäng övriga dokument"
+
+#: src/sk1/resources/labels.py:61
+msgid "Page Setup for Print..."
+msgstr "Utskriftsformat …"
+
+#: src/sk1/resources/labels.py:62
+msgid "&Print..."
+msgstr "Skriv &ut …"
+
+#: src/sk1/resources/labels.py:63
+msgid "&Exit"
+msgstr "&Avsluta"
+
+#: src/sk1/resources/labels.py:63
+msgid "Exit application"
+msgstr "Avsluta programmet"
+
+#: src/sk1/resources/labels.py:65
+msgid "&Undo"
+msgstr "Ån&gra"
+
+#: src/sk1/resources/labels.py:66
+msgid "&Redo"
+msgstr "&Gör om"
+
+#: src/sk1/resources/labels.py:67
+msgid "Clear undo history"
+msgstr "Rensa ångringshistoriken"
+
+#: src/sk1/resources/labels.py:68
+msgid "Cu&t"
+msgstr "Klipp u&t"
+
+#: src/sk1/resources/labels.py:69
+msgid "&Copy"
+msgstr "&Kopiera"
+
+#: src/sk1/resources/labels.py:70
+msgid "&Paste"
+msgstr "Klistra &in"
+
+#: src/sk1/resources/labels.py:71
+msgid "&Delete"
+msgstr "&Ta bort"
+
+#: src/sk1/resources/labels.py:73
+msgid "&Select All"
+msgstr "Markera &allt"
+
+#: src/sk1/resources/labels.py:74
+msgid "D&eselect"
+msgstr "Av&markera"
+
+#: src/sk1/resources/labels.py:75
+msgid "&Invert selection"
+msgstr "&Invertera markering"
+
+#: src/sk1/resources/labels.py:76
+msgid "&File history logs..."
+msgstr "&Filhistorikloggar …"
+
+#: src/sk1/resources/labels.py:77
+msgid "&Lock guides"
+msgstr "&Lås stödlinjer"
+
+#: src/sk1/resources/labels.py:78
+msgid "Document properties..."
+msgstr "Dokumentegenskaper …"
+
+#: src/sk1/resources/labels.py:79
+msgid "Preferences..."
+msgstr "Inställningar …"
+
+#: src/sk1/resources/labels.py:81
+msgid "Stroke view"
+msgstr "Konturvy"
+
+#: src/sk1/resources/labels.py:82
+msgid "Draft view"
+msgstr "Utkastvy"
+
+#: src/sk1/resources/labels.py:83
+msgid "Simulate printer"
+msgstr "Simulera skrivare"
+
+#: src/sk1/resources/labels.py:84 src/sk1/printing/printdlg/toolbar.py:53
+msgid "Zoom 100%"
+msgstr "Zooma till 100 %"
+
+#: src/sk1/resources/labels.py:87
+msgid "Previous zoom"
+msgstr "Föregående zoomnivå"
+
+#: src/sk1/resources/labels.py:88
+msgid "Fit zoom to page"
+msgstr "Anpassa zoom till sidan"
+
+#: src/sk1/resources/labels.py:89
+msgid "Zoom selected"
+msgstr "Zooma till markering"
+
+#: src/sk1/resources/labels.py:90
+msgid "Show grid"
+msgstr "Visa rutnät"
+
+#: src/sk1/resources/labels.py:91
+msgid "Show guides"
+msgstr "Visa stödlinjer"
+
+#: src/sk1/resources/labels.py:92
+msgid "Show active snapping"
+msgstr "Visa aktiv fästning"
+
+#: src/sk1/resources/labels.py:94
+msgid "Snap to grid"
+msgstr "Fäst mot rutnät"
+
+#: src/sk1/resources/labels.py:95
+msgid "Snap to guide"
+msgstr "Fäst mot stödlinje"
+
+#: src/sk1/resources/labels.py:96
+msgid "Snap to objects"
+msgstr "Fäst mot objekt"
+
+#: src/sk1/resources/labels.py:97
+msgid "Snap to page"
+msgstr "Fäst mot sida"
+
+#: src/sk1/resources/labels.py:98
+msgid "Iconizer..."
+msgstr "Ikonskapare …"
+
+#: src/sk1/resources/labels.py:99
+msgid "Redraw document"
+msgstr "Rita om dokument"
+
+#: src/sk1/resources/labels.py:101
+msgid "Insert page..."
+msgstr "Infoga sida …"
+
+#: src/sk1/resources/labels.py:102
+msgid "Delete page..."
+msgstr "Ta bort sida …"
+
+#: src/sk1/resources/labels.py:103
+msgid "Go to page..."
+msgstr "Gå till sida …"
+
+#: src/sk1/resources/labels.py:104
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: src/sk1/resources/labels.py:105
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: src/sk1/resources/labels.py:106
+msgid "Guides in page center"
+msgstr "Stödlinjer vid sidans mitt"
+
+#: src/sk1/resources/labels.py:107
+msgid "Page frame"
+msgstr "Sidram"
+
+#: src/sk1/resources/labels.py:108
+msgid "Guides around page"
+msgstr "Stödlinjer runt sidan"
+
+#: src/sk1/resources/labels.py:109
+msgid "Remove all guides"
+msgstr "Ta bort alla stödlinjer"
+
+#: src/sk1/resources/labels.py:111
+msgid "Clear transformations"
+msgstr "Rensa transformationer"
+
+#: src/sk1/resources/labels.py:112
+msgid "Inline transformations"
+msgstr "Baka in transformationer"
+
+#: src/sk1/resources/labels.py:113
+msgid "Position..."
+msgstr "Position …"
+
+#: src/sk1/resources/labels.py:114
+msgid "Resizing..."
+msgstr "Storleksändring …"
+
+#: src/sk1/resources/labels.py:115
+msgid "Scale and mirror..."
+msgstr "Skala och spegla …"
+
+#: src/sk1/resources/labels.py:116
+msgid "Rotation..."
+msgstr "Rotering …"
+
+#: src/sk1/resources/labels.py:117
+msgid "Shearing..."
+msgstr "Skjuvning …"
+
+#: src/sk1/resources/labels.py:118
+msgid "Rotate &left 90 degrees"
+msgstr "Rotera 90 grader åt &vänster"
+
+#: src/sk1/resources/labels.py:119
+msgid "Rotate &right 90 degrees"
+msgstr "Rotera 90 grader åt &höger"
+
+#: src/sk1/resources/labels.py:120
+msgid "&Flip horizontal"
+msgstr "Vänd hor&isontellt"
+
+#: src/sk1/resources/labels.py:121
+msgid "&Flip vertical"
+msgstr "Vänd ve&rtikalt"
+
+#: src/sk1/resources/labels.py:122
+msgid "Align and Distribute..."
+msgstr "Justera och fördela …"
+
+#: src/sk1/resources/labels.py:123
+msgid "&Combine"
+msgstr "&Kombinera"
+
+#: src/sk1/resources/labels.py:124
+msgid "&Break Apart"
+msgstr "&Dela upp"
+
+#: src/sk1/resources/labels.py:125
+msgid "Move to &Top"
+msgstr "Flytta ö&verst"
+
+#: src/sk1/resources/labels.py:128
+msgid "Move to &Bottom"
+msgstr "Flytta &underst"
+
+#: src/sk1/resources/labels.py:129
+msgid "&Group"
+msgstr "&Gruppera"
+
+#: src/sk1/resources/labels.py:130
+msgid "&Ungroup"
+msgstr "Lös &upp grupp"
+
+#: src/sk1/resources/labels.py:131
+msgid "U&ngroup All"
+msgstr "Lös upp &alla grupper"
+
+#: src/sk1/resources/labels.py:132
+msgid "Trim..."
+msgstr "Beskär …"
+
+#: src/sk1/resources/labels.py:133
+msgid "Intersection..."
+msgstr "Snitt …"
+
+#: src/sk1/resources/labels.py:134
+msgid "Exclusion..."
+msgstr "Exklusion …"
+
+#: src/sk1/resources/labels.py:135
+msgid "Fusion..."
+msgstr "Sammanfogning …"
+
+#: src/sk1/resources/labels.py:136
+msgid "&Place into container"
+msgstr "&Placera i behållare"
+
+#: src/sk1/resources/labels.py:137
+msgid "&Extract from container"
+msgstr "&Extrahera från behållare"
+
+#: src/sk1/resources/labels.py:138
+msgid "Con&vert to curves"
+msgstr "Kon&vertera till kurvor"
+
+#: src/sk1/resources/labels.py:139
+msgid "Convert stroke to curves"
+msgstr "Konvertera kontur till kurvor"
+
+#: src/sk1/resources/labels.py:141
+msgid "Select all nodes"
+msgstr "Markera alla noder"
+
+#: src/sk1/resources/labels.py:142
+msgid "Reverse all paths"
+msgstr "Vänd alla banor"
+
+#: src/sk1/resources/labels.py:143
+msgid "Select all subpath nodes"
+msgstr "Markera alla noder i delbanan"
+
+#: src/sk1/resources/labels.py:144
+msgid "Delete subpaths"
+msgstr "Ta bort delbanor"
+
+#: src/sk1/resources/labels.py:145
+msgid "Reverse subpaths"
+msgstr "Vänd delbanor"
+
+#: src/sk1/resources/labels.py:146
+msgid "Extract subpaths"
+msgstr "Extrahera delbanor"
+
+#: src/sk1/resources/labels.py:149
+msgid "Create segment"
+msgstr "Skapa segment"
+
+#: src/sk1/resources/labels.py:152
+msgid "Split nodes"
+msgstr "Dela noder"
+
+#: src/sk1/resources/labels.py:153
+msgid "Convert segments to line"
+msgstr "Konvertera segment till linje"
+
+#: src/sk1/resources/labels.py:154
+msgid "Convert segments to curve"
+msgstr "Konvertera segment till kurva"
+
+#: src/sk1/resources/labels.py:155
+msgid "Make nodes cusp"
+msgstr "Gör noder till hörn"
+
+#: src/sk1/resources/labels.py:156
+msgid "Make nodes smooth"
+msgstr "Gör noder mjuka"
+
+#: src/sk1/resources/labels.py:157
+msgid "Make nodes symmetrical"
+msgstr "Gör noder symmetriska"
+
+#: src/sk1/resources/labels.py:159
+msgid "Convert to CMYK"
+msgstr "Konvertera till CMYK"
+
+#: src/sk1/resources/labels.py:160
+msgid "Convert to RGB"
+msgstr "Konvertera till RGB"
+
+#: src/sk1/resources/labels.py:161
+msgid "Convert to LAB"
+msgstr "Konvertera till LAB"
+
+#: src/sk1/resources/labels.py:162
+msgid "Convert to Grayscale"
+msgstr "Konvertera till gråskala"
+
+#: src/sk1/resources/labels.py:163
+msgid "Convert to B&W"
+msgstr "Konvertera till svart&vitt"
+
+#: src/sk1/resources/labels.py:164
+msgid "Invert bitmap"
+msgstr "Invertera rasterbild"
+
+#: src/sk1/resources/labels.py:165
+msgid "Remove alpha channel"
+msgstr "Ta bort alfakanal"
+
+#: src/sk1/resources/labels.py:166
+msgid "Invert alpha channel"
+msgstr "Invertera alfakanal"
+
+#: src/sk1/resources/labels.py:167
+msgid "Extract embedded bitmap..."
+msgstr "Extrahera inbäddad rasterbild …"
+
+#: src/sk1/resources/labels.py:169
+msgid "&Edit text"
+msgstr "&Redigera text"
+
+#: src/sk1/resources/labels.py:170
+msgid "Text on path..."
+msgstr "Text på bana …"
+
+#: src/sk1/resources/labels.py:171
+msgid "Text on circle..."
+msgstr "Text på cirkel …"
+
+#: src/sk1/resources/labels.py:172
+msgid "&Straighten text"
+msgstr "&Räta ut text"
+
+#: src/sk1/resources/labels.py:173
+msgid "Clear text markup"
+msgstr "Rensa textformatering"
+
+#: src/sk1/resources/labels.py:174
+msgid "Uppercase"
+msgstr "Versaler"
+
+#: src/sk1/resources/labels.py:175
+msgid "Lowercase"
+msgstr "Gemener"
+
+#: src/sk1/resources/labels.py:176
+msgid "Capitalize"
+msgstr "Inledande versaler"
+
+#: src/sk1/resources/labels.py:179
+msgid "Layers..."
+msgstr "Lager …"
+
+#: src/sk1/resources/labels.py:180
+msgid "Object browser"
+msgstr "Objektbläddrare"
+
+#: src/sk1/resources/labels.py:182
+msgid "&Report bug"
+msgstr "&Rapportera fel"
+
+#: src/sk1/resources/labels.py:183
+msgid "&Log console"
+msgstr "&Loggkonsol"
+
+#: src/sk1/resources/labels.py:184
+msgid "Project web site"
+msgstr "Projektets webbplats"
+
+#: src/sk1/resources/labels.py:185
+msgid "Project forum"
+msgstr "Projektets forum"
+
+#: src/sk1/resources/labels.py:186
+msgid "Project page on Face&book"
+msgstr "Projektsida på Face&book"
+
+#: src/sk1/resources/labels.py:187
+msgid "&About sK1..."
+msgstr "&Om sK1 …"
+
+#: src/sk1/resources/labels.py:189
+msgid "Manage palettes..."
+msgstr "Hantera paletter …"
+
+#: src/sk1/document/controllers/editor_bezier.py:52
+#: src/sk1/document/controllers/editor_bezier.py:239
+msgid "No selected nodes"
+msgstr "Inga noder är markerade"
+
+#: src/sk1/document/controllers/editor_bezier.py:241
+#, python-format
+msgid "Selected %d node(s)"
+msgstr "Antal markerade noder: %d"
+
+#: src/sk1/document/controllers/editor_ellipse.py:48
+#: src/sk1/document/controllers/editor_ellipse.py:62
+msgid "Ellipse in editing"
+msgstr "Ellips redigeras"
+
+#: src/sk1/document/controllers/editor_polygon.py:52
+#: src/sk1/document/controllers/editor_polygon.py:95
+msgid "Polygon in editing"
+msgstr "Polygon redigeras"
+
+#: src/sk1/document/controllers/editor_rect.py:57
+#: src/sk1/document/controllers/editor_rect.py:122
+msgid "Rectangle in editing"
+msgstr "Rektangel redigeras"
+
+#: src/sk1/document/controllers/editor_text.py:50
+msgid "Text in shaping"
+msgstr "Text formas"
+
+#: src/sk1/document/controllers/grad_ctrl.py:87
+msgid "Gradient creating"
+msgstr "Gradient skapas"
+
+#: src/sk1/document/controllers/grad_ctrl.py:184
+msgid "Gradient in editing"
+msgstr "Gradient redigeras"
+
+#: src/sk1/document/controllers/text_ctrl.py:58
+msgid "Text in editing"
+msgstr "Text redigeras"
+
+#: src/sk1/printing/printdlg/__init__.py:50
+#: src/sk1/printing/printdlg/__init__.py:138
+msgid "Print preview"
+msgstr "Förhandsvisning av utskrift"
+
+#: src/sk1/printing/printdlg/panels.py:60
+msgid "Copies"
+msgstr "Kopior"
+
+#: src/sk1/printing/printdlg/panels.py:67
+msgid "Number of copies:"
+msgstr "Antal kopior:"
+
+#: src/sk1/printing/printdlg/panels.py:78
+msgid "Collate"
+msgstr "Sortera satsvis"
+
+#: src/sk1/printing/printdlg/panels.py:130
+msgid "Page range"
+msgstr "Sidintervall"
+
+#: src/sk1/printing/printdlg/panels.py:149
+msgid "Enter page numbers or page ranges."
+msgstr "Ange sidnummer eller sidintervall."
+
+#: src/sk1/printing/printdlg/panels.py:150
+msgid "For example: 1,2,5-6"
+msgstr "Till exempel: 1,2,5-6"
+
+#: src/sk1/printing/printdlg/panels.py:228
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:34
+msgid "Print mode"
+msgstr "Utskriftsläge"
+
+#: src/sk1/printing/printdlg/panels.py:238
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:38
+msgid "Monochrome"
+msgstr "Monokrom"
+
+#: src/sk1/printing/printdlg/panels.py:277
+msgid "Printer"
+msgstr "Skrivare"
+
+#: src/sk1/printing/printdlg/toolbar.py:48
+#: src/sk1/printing/propsdlg/generic.py:33
+msgid "Printer properties"
+msgstr "Skrivaregenskaper"
+
+#: src/sk1/printing/printdlg/toolbar.py:52
+msgid "Fit to page"
+msgstr "Anpassa till sidan"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:56
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:49
+msgid "Color space:"
+msgstr "Färgrymd:"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:107
+msgid "Paper"
+msgstr "Papper"
+
+#: src/sk1/printing/propsdlg/cupspropsdlg.py:316
+msgid ""
+"Note: To adjust specific printer options you could use system configuration "
+"tools like 'system-config-printer'"
+msgstr ""
+"Observera: Specifika skrivaralternativ kan ändras med systemets "
+"konfigurationsverktyg, till exempel ”system-config-printer”"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:37
+msgid "Generation options"
+msgstr "Genereringsalternativ"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:58
+msgid "Use SPOT colors"
+msgstr "Använd dekorfärger"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:61
+msgid "Use compression"
+msgstr "Använd komprimering"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:88
+msgid "Document page"
+msgstr "Dokumentsida"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:192
+msgid "Document metainfo"
+msgstr "Dokumentets metadata"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:201
+msgid "Subject:"
+msgstr "Ämne:"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:276
+msgid "Set metainfo"
+msgstr "Ange metadata"
+
+#: src/sk1/printing/propsdlg/pdfpropsdlg.py:277
+msgid "Set metainfo from current document"
+msgstr "Hämta metadata från aktuellt dokument"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:55
+msgid "Largest object"
+msgstr "Största objektet"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:76
+msgid "Align to left side"
+msgstr "Justera mot vänsterkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:77
+msgid "Align to center horizontally"
+msgstr "Centrera horisontellt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:78
+msgid "Align to right side"
+msgstr "Justera mot högerkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:90
+msgid "Align to bottom"
+msgstr "Justera mot nederkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:91
+msgid "Align to center vertically"
+msgstr "Centrera vertikalt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:92
+msgid "Align to top"
+msgstr "Justera mot överkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:98
+msgid "Align and Distribute"
+msgstr "Justera och fördela"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:132
+msgid "Align"
+msgstr "Justera"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:154
+msgid "Selection as group"
+msgstr "Markering som grupp"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:293
+msgid "Distribute by left side horizontally"
+msgstr "Fördela horisontellt efter vänsterkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:294
+msgid "Distribute by center horizontally"
+msgstr "Fördela horisontellt efter mittpunkt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:295
+msgid "Distribute by right side horizontally"
+msgstr "Fördela horisontellt efter högerkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:296
+msgid "Equal gap horizontally"
+msgstr "Lika stort mellanrum horisontellt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:310
+msgid "Distribute by bottom side vertically"
+msgstr "Fördela vertikalt efter nederkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:311
+msgid "Distribute by center vertically"
+msgstr "Fördela vertikalt efter mittpunkt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:312
+msgid "Distribute by top side vertically"
+msgstr "Fördela vertikalt efter överkant"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:313
+msgid "Equal gap vertically"
+msgstr "Lika stort mellanrum vertikalt"
+
+#: src/sk1/share/pd_plugins/align_plugin/__init__.py:322
+msgid "Distribute"
+msgstr "Fördela"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:159
+msgid "Iconizer"
+msgstr "Ikonskapare"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:202
+msgid "Show image border"
+msgstr "Visa bildkant"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:207
+msgid "Draw selected only"
+msgstr "Rita endast markerade"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:214
+msgid "Save image"
+msgstr "Spara bild"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:305
+msgid "Save image as..."
+msgstr "Spara bild som …"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:314
+msgid "Cannot save image:"
+msgstr "Kan inte spara bilden:"
+
+#: src/sk1/share/pd_plugins/iconizer/__init__.py:322
+msgid "Image is successfully saved"
+msgstr "Bilden har sparats"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:72
+msgid "Create new layer"
+msgstr "Skapa nytt lager"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:75
+msgid "Move layer to bottom"
+msgstr "Flytta lagret underst"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:78
+msgid "Move layer down"
+msgstr "Flytta lagret nedåt"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:81
+msgid "Move layer up"
+msgstr "Flytta lagret uppåt"
+
+#: src/sk1/share/pd_plugins/layers_plugin/__init__.py:84
+msgid "Move layer to top"
+msgstr "Flytta lagret överst"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:55
+msgid "Trim"
+msgstr "Beskär"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:56
+msgid "Intersection"
+msgstr "Snitt"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:57
+msgid "Exclusion"
+msgstr "Exklusion"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:58
+msgid "Fusion"
+msgstr "Sammanfogning"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:90
+msgid "Delete originals"
+msgstr "Ta bort originalen"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:95
+msgid "Apply to..."
+msgstr "Tillämpa på …"
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:122
+msgid "Selected objects cannot be used for this operation."
+msgstr "De markerade objekten kan inte användas för den här åtgärden."
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:123
+msgid "Try ungroup selection."
+msgstr "Försök att lösa upp den markerade gruppen."
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:167
+msgid "Selected object cannot be target for trim operation."
+msgstr "Det markerade objektet kan inte vara mål för beskärningen."
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:190
+msgid "Selected objects cannot be intersected."
+msgstr "Det går inte att skapa ett snitt av de markerade objekten."
+
+#: src/sk1/share/pd_plugins/shaping/__init__.py:257
+msgid "Shaping"
+msgstr "Formning"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:47
+msgid "Text on right side"
+msgstr "Text på höger sida"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:48
+msgid "Text at top"
+msgstr "Text upptill"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:49
+msgid "Text on left side"
+msgstr "Text på vänster sida"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:50
+msgid "Text at bottom"
+msgstr "Text nedtill"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:129
+msgid "Text on Circle"
+msgstr "Text på cirkel"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:140
+msgid "Text position on circle"
+msgstr "Textens position på cirkeln"
+
+#: src/sk1/share/pd_plugins/text_on_circle/__init__.py:146
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:119
+msgid "Place on the other side"
+msgstr "Placera på andra sidan"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:52
+msgid "Align to path start"
+msgstr "Justera mot banans början"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:53
+msgid "Align to path center"
+msgstr "Justera mot banans mitt"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:54
+msgid "Align to path end"
+msgstr "Justera mot banans slut"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:55
+msgid "Stretch along path"
+msgstr "Sträck ut längs banan"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:90
+msgid "Text position on path"
+msgstr "Textens position på banan"
+
+#: src/sk1/share/pd_plugins/text_on_path/__init__.py:93
+msgid "Base point:"
+msgstr "Baspunkt:"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:56
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:191
+msgid "Resizing"
+msgstr "Storleksändring"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:57
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:269
+msgid "Scale and mirror"
+msgstr "Skala och spegla"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:58
+msgid "Rotating"
+msgstr "Rotering"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:59
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:449
+msgid "Shearing"
+msgstr "Skjuvning"
+
+#: src/sk1/share/pd_plugins/transform_plugin/__init__.py:112
+msgid "Apply to copy"
+msgstr "Tillämpa på kopia"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:145
+msgid "Absolute position"
+msgstr "Absolut position"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:382
+msgid "Center:"
+msgstr "Mittpunkt:"
+
+#: src/sk1/share/pd_plugins/transform_plugin/transforms.py:397
+msgid "Relative center"
+msgstr "Relativ mittpunkt"
+
+#: src/sk1/dialogs/dashedit_dlg.py:22
+msgid ""
+"Dash pattern is a sequence (stroke-space-stroke-space- etc.) of integer \n"
+"or float values separated by space which describes size of pattern elements. \n"
+"The values are relative to line width. Example: '2 1' or '5 1 1 1'. Empty value\n"
+"means no dash, i.e. solid line."
+msgstr ""
+"Ett streckmönster består av en sekvens (streck, mellanrum, streck, mellanrum och så vidare)\n"
+"av heltal eller decimaltal åtskilda med mellanslag. Värdena anger mönsterdelarnas storlek\n"
+"i förhållande till linjebredden. Exempel: ”2 1” eller ”5 1 1 1”. Ett tomt värde\n"
+"ger en heldragen linje."
+
+#: src/uc2/uc2const.py:123
+msgid "PDXF - PrintDesign XML Format graphics files"
+msgstr "PDXF - PrintDesign XML-grafikfiler"
+
+#: src/uc2/uc2const.py:124
+msgid "SK1 - sK1 0.9.x graphics files"
+msgstr "SK1 - sK1 0.9.x-grafikfiler"
+
+#: src/uc2/uc2const.py:125
+msgid "SK2 - sK1 2.x graphics files"
+msgstr "SK2 - sK1 2.x-grafikfiler"
+
+#: src/uc2/uc2const.py:126
+msgid "SK - Sketch/Skencil files"
+msgstr "SK - Sketch-/Skencil-filer"
+
+#: src/uc2/uc2const.py:127
+msgid "SVG - Scalable Vector Graphics files"
+msgstr "SVG - Scalable Vector Graphics-filer"
+
+#: src/uc2/uc2const.py:128
+msgid "SVGZ - Compressed Scalable Vector Graphics files"
+msgstr "SVGZ - komprimerade SVG-filer"
+
+#: src/uc2/uc2const.py:129
+msgid "ODG - Open Document Drawing files"
+msgstr "ODG - OpenDocument Drawing-filer"
+
+#: src/uc2/uc2const.py:130
+msgid "ORA - Open Raster Format files"
+msgstr "ORA - OpenRaster-filer"
+
+#: src/uc2/uc2const.py:131
+msgid "XCF - GIMP files"
+msgstr "XCF - GIMP-filer"
+
+#: src/uc2/uc2const.py:132
+msgid "SLA - Scribus documents"
+msgstr "SLA - Scribus-dokument"
+
+#: src/uc2/uc2const.py:133 src/uc2/uc2const.py:135
+msgid "CDR - CorelDRAW Graphics files"
+msgstr "CDR - CorelDRAW-grafikfiler"
+
+#: src/uc2/uc2const.py:134 src/uc2/uc2const.py:136
+msgid "CDT - CorelDRAW Templates files"
+msgstr "CDT - CorelDRAW-mallfiler"
+
+#: src/uc2/uc2const.py:137
+msgid "CMX - CorelDRAW Presentation Exchange files"
+msgstr "CMX - CorelDRAW Presentation Exchange-filer"
+
+#: src/uc2/uc2const.py:138
+msgid "CCX - CorelDRAW Compressed Exchange files"
+msgstr "CCX - CorelDRAW Compressed Exchange-filer"
+
+#: src/uc2/uc2const.py:139
+msgid "XAR - Xara graphics files"
+msgstr "XAR - Xara-grafikfiler"
+
+#: src/uc2/uc2const.py:140
+msgid "FIG - XFig files"
+msgstr "FIG - XFig-filer"
+
+#: src/uc2/uc2const.py:141 src/uc2/uc2const.py:142
+msgid "AI - Adobe Illustrator files"
+msgstr "AI - Adobe Illustrator-filer"
+
+#: src/uc2/uc2const.py:143
+msgid "PS - PostScript files"
+msgstr "PS - PostScript-filer"
+
+#: src/uc2/uc2const.py:144
+msgid "EPS - Encapsulated PostScript files"
+msgstr "EPS - Encapsulated PostScript-filer"
+
+#: src/uc2/uc2const.py:145
+msgid "PDF - Portable Document Format files"
+msgstr "PDF - Portable Document Format-filer"
+
+#: src/uc2/uc2const.py:146
+msgid "PSD - Adobe Photoshop files"
+msgstr "PSD - Adobe Photoshop-filer"
+
+#: src/uc2/uc2const.py:147
+msgid "CGM - Computer Graphics Metafile files"
+msgstr "CGM - Computer Graphics Metafile-filer"
+
+#: src/uc2/uc2const.py:148
+msgid "WMF - Windows Metafile files"
+msgstr "WMF - Windows Metafile-filer"
+
+#: src/uc2/uc2const.py:149
+msgid "EMF - Windows Enhanced Metafile files"
+msgstr "EMF - Windows Enhanced Metafile-filer"
+
+#: src/uc2/uc2const.py:150
+msgid "XPS - XML Paper Specification files"
+msgstr "XPS - XML Paper Specification-filer"
+
+#: src/uc2/uc2const.py:151
+msgid "VSD - Visio Drawing files"
+msgstr "VSD - Visio Drawing-filer"
+
+#: src/uc2/uc2const.py:152
+msgid "PLT - HPGL cutting plotter files"
+msgstr "PLT - HPGL-filer för skärplotter"
+
+#: src/uc2/uc2const.py:153
+msgid "HPGL - HPGL plotter files"
+msgstr "HPGL - HPGL-plotterfiler"
+
+#: src/uc2/uc2const.py:154
+msgid "DXF - AutoCAD files"
+msgstr "DXF - AutoCAD-filer"
+
+#: src/uc2/uc2const.py:155
+msgid "DWG - AutoCAD files"
+msgstr "DWG - AutoCAD-filer"
+
+#: src/uc2/uc2const.py:156
+msgid "RIF - RIFF files"
+msgstr "RIF - RIFF-filer"
+
+#: src/uc2/uc2const.py:159
+msgid "JPEG - Joint Photographic Experts Group files"
+msgstr "JPEG - JPEG-filer"
+
+#: src/uc2/uc2const.py:160
+msgid "JPEG2000 - Joint Photographic Experts Group files"
+msgstr "JPEG2000 - JPEG 2000-filer"
+
+#: src/uc2/uc2const.py:161
+msgid "TIFF - Tagged Image File Format files"
+msgstr "TIFF - TIFF-filer"
+
+#: src/uc2/uc2const.py:162
+msgid "BMP - Bitmap Picture files"
+msgstr "BMP - bitmappsfiler"
+
+#: src/uc2/uc2const.py:163
+msgid "PCX - PCeXchange files"
+msgstr "PCX - PCX-filer"
+
+#: src/uc2/uc2const.py:164
+msgid "GIF - Graphics Interchange Format files"
+msgstr "GIF - GIF-filer"
+
+#: src/uc2/uc2const.py:165
+msgid "PNG - Portable Network Graphics files"
+msgstr "PNG - PNG-filer"
+
+#: src/uc2/uc2const.py:166
+msgid "PPM - Netpbm Color Image format files"
+msgstr "PPM - Netpbm-färgbildsfiler"
+
+#: src/uc2/uc2const.py:167
+msgid "XBM - X bitmap files"
+msgstr "XBM - X-bitmappar"
+
+#: src/uc2/uc2const.py:168
+msgid "XPM - X pixmap files"
+msgstr "XPM - X-pixmappar"
+
+#: src/uc2/uc2const.py:169
+msgid "WebP - Google image format files"
+msgstr "WebP - WebP-bildfiler"
+
+#: src/uc2/uc2const.py:172
+msgid "SKP - sK1 palette files"
+msgstr "SKP - sK1-palettfiler"
+
+#: src/uc2/uc2const.py:173
+msgid "GPL - GIMP palette files"
+msgstr "GPL - GIMP-palettfiler"
+
+#: src/uc2/uc2const.py:174
+msgid "CPL - CorelDRAW palette files"
+msgstr "CPL - CorelDRAW-palettfiler"
+
+#: src/uc2/uc2const.py:175
+msgid "XML - Scribus palette files"
+msgstr "XML - Scribus-palettfiler"
+
+#: src/uc2/uc2const.py:176
+msgid "SOC - LibreOffice palette files"
+msgstr "SOC - LibreOffice-palettfiler"
+
+#: src/uc2/uc2const.py:177
+msgid "XML - CorelDRAW X5-X7 palette files"
+msgstr "XML - CorelDRAW X5–X7-palettfiler"
+
+#: src/uc2/uc2const.py:178
+msgid "ASE - Adobe Swatch Exchange files"
+msgstr "ASE - Adobe Swatch Exchange-filer"
+
+#: src/uc2/uc2const.py:179
+msgid "ACO - Adobe Color files"
+msgstr "ACO - Adobe Color-filer"
+
+#: src/uc2/uc2const.py:180
+msgid "JCW - Xara color palette files"
+msgstr "JCW - Xara-färgpalettfiler"
+
+#: src/uc2/uc2const.py:183
+msgid "ICC - International Color Consortium profiles"
+msgstr "ICC - International Color Consortium-profiler"
+
+#: src/uc2/uc2const.py:184
+msgid "ICM - Image Color Matching profiles"
+msgstr "ICM - Image Color Matching-profiler"
+
+#: src/uc2/uc2const.py:186
+msgid "XML - eXtensible Markup Language files"
+msgstr "XML - XML-filer"
+
+#: src/uc2/uc2const.py:187
+msgid "LOG - Log files"
+msgstr "LOG - loggfiler"
+
+#: src/uc2/uc2const.py:188
+msgid "MD - Markdown markup files"
+msgstr "MD - Markdown-filer"
+
+#: src/uc2/uc2const.py:191
+msgid "DST - (Tajima) Design format"
+msgstr "DST - Tajima-designformat"
+
+#: src/uc2/uc2const.py:192
+msgid "PES - (Brother) Embroidery file format"
+msgstr "PES - Brother-broderifilformat"
+
+#: src/uc2/uc2const.py:398
+msgid "pt"
+msgstr "pt"
+
+#: src/uc2/formats/generic.py:141
+msgid "Error while loading:"
+msgstr "Fel vid inläsning:"
+
+#: src/uc2/formats/generic.py:141
+msgid "No file"
+msgstr "Ingen fil"
+
+#: src/uc2/formats/generic.py:147 src/uc2/formats/generic.py:227
+#: src/uc2/formats/generic_filters.py:96 src/uc2/formats/cdr/cdr_filters.py:46
+msgid "Parsing in progress..."
+msgstr "Tolkning pågår …"
+
+#: src/uc2/formats/generic.py:156
+#, python-format
+msgid "<%s> document model is created"
+msgstr "Dokumentmodellen <%s> har skapats"
+
+#: src/uc2/formats/generic.py:167
+msgid "Error updating document model"
+msgstr "Fel vid uppdatering av dokumentmodellen"
+
+#: src/uc2/formats/generic.py:172
+#, python-format
+msgid "<%s> document model is updated successfully"
+msgstr "Dokumentmodellen <%s> har uppdaterats"
+
+#: src/uc2/formats/generic.py:180
+msgid "Error while saving:"
+msgstr "Fel vid sparande:"
+
+#: src/uc2/formats/generic.py:180
+msgid "No file object"
+msgstr "Inget filobjekt"
+
+#: src/uc2/formats/generic.py:186
+msgid "Saving is started..."
+msgstr "Sparandet har påbörjats …"
+
+#: src/uc2/formats/generic.py:189
+msgid "Error while saving"
+msgstr "Fel vid sparande"
+
+#: src/uc2/formats/generic.py:195
+#, python-format
+msgid "<%s> document model is saved successfully"
+msgstr "Dokumentmodellen <%s> har sparats"
+
+#: src/uc2/formats/generic.py:208
+#, python-format
+msgid "<%s> document model is destroyed for %s"
+msgstr "Dokumentmodellen <%s> har frigjorts för %s"
+
+#: src/uc2/formats/generic.py:214
+msgid "Cache is cleared for"
+msgstr "Cachen har rensats för"
+
+#: src/uc2/formats/generic.py:216
+msgid "Cache clearing is unsuccessful"
+msgstr "Kunde inte rensa cachen"
+
+#: src/uc2/formats/generic.py:223
+#, python-format
+msgid "%s model update in progress..."
+msgstr "Uppdatering av modellen %s pågår …"
+
+#: src/uc2/formats/generic.py:231 src/uc2/formats/generic_filters.py:238
+#: src/uc2/formats/pdf/pdfgen.py:64 src/uc2/formats/plt/plt_translators.py:100
+msgid "Saving in progress..."
+msgstr "Sparande pågår …"
+
+#: src/uc2/formats/generic_filters.py:60
+msgid "There is no file for reading"
+msgstr "Det finns ingen fil att läsa"
+
+#: src/uc2/formats/generic_filters.py:204
+msgid "There is no file for writting"
+msgstr "Det finns ingen fil att skriva till"
+
+#: src/uc2/utils/fsutils.py:64
+msgid "There is no file path"
+msgstr "Ingen sökväg har angetts"
+
+#: src/uc2/utils/fsutils.py:71 src/uc2/formats/cdrz/cdrz_filters.py:236
+#, python-format
+msgid "Cannot open %s file for writing"
+msgstr "Kan inte öppna filen %s för skrivning"
+
+#: src/uc2/utils/fsutils.py:79
+#, python-format
+msgid "Cannot open %s file for reading"
+msgstr "Kan inte öppna filen %s för läsning"
+
+#: src/uc2/formats/cdr/cdr_presenter.py:57
+msgid "Translation is under process..."
+msgstr "Konvertering pågår …"
+
+#: src/uc2/formats/cdrz/cdrz_filters.py:43
+msgid "It seems the file is not CDRZ file"
+msgstr "Filen verkar inte vara en CDRZ-fil"
+
+#: src/uc2/formats/cdrz/cdrz_filters.py:71
+msgid "It seems the CDR file is corrupted"
+msgstr "CDR-filen verkar vara skadad"
+
+#: src/uc2/formats/cdrz/cdrz_filters.py:86
+msgid "The file content is extracted successfully"
+msgstr "Filens innehåll har extraherats"
+
+#: src/uc2/formats/pdxf/model.py:303 src/uc2/formats/sk/sk_model.py:52
+#: src/uc2/formats/sk/sk_model.py:242 src/uc2/formats/sk1/model.py:54
+#: src/uc2/formats/sk1/model.py:368 src/uc2/formats/sk2/sk2_model.py:286
+msgid "GuideLayer"
+msgstr "Stödlinjelager"
+
+#: src/uc2/formats/pdxf/model.py:327 src/uc2/formats/sk2/sk2_model.py:310
+msgid "GridLayer"
+msgstr "Rutnätslager"
+
+#: src/uc2/formats/sk/sk_model.py:55 src/uc2/formats/sk1/model.py:57
+msgid "MaskGroup"
+msgstr "Maskgrupp"
+
+#: src/uc2/formats/sk/sk_model.py:57 src/uc2/formats/sk1/model.py:59
+#: src/uc2/formats/sk2/sk2_cids.py:77
+msgid "Curve"
+msgstr "Kurva"
+
+#: src/uc2/formats/sk/sk_model.py:58 src/uc2/formats/sk1/model.py:60
+msgid "BitmapData"
+msgstr "Rasterbildsdata"
+
+#: src/uc2/formats/sk/sk_model.py:209 src/uc2/formats/sk1/model.py:291
+msgid "New Layer"
+msgstr "Nytt lager"
+
+#: src/uc2/formats/sk1/model.py:53 src/uc2/formats/sk1/model.py:330
+msgid "MasterLayer"
+msgstr "Huvudlager"
+
+#: src/uc2/formats/sk2/__init__.py:48 src/uc2/formats/sk2/__init__.py:56
+msgid "Newer version of SK2 format is found!"
+msgstr "En nyare version av SK2-formatet hittades!"
+
+#: src/uc2/formats/sk2/sk2_cids.py:64
+msgid "Metainfo"
+msgstr "Metadata"
+
+#: src/uc2/formats/sk2/sk2_cids.py:65
+msgid "Profiles"
+msgstr "Profiler"
+
+#: src/uc2/formats/sk2/sk2_cids.py:65
+msgid "Profile"
+msgstr "Profil"
+
+#: src/uc2/formats/sk2/sk2_cids.py:68
+msgid "Layer group"
+msgstr "Lagergrupp"
+
+#: src/uc2/formats/sk2/sk2_cids.py:69
+msgid "Master layers"
+msgstr "Huvudlager"
+
+#: src/uc2/formats/sk2/sk2_cids.py:70
+msgid "Grid layer"
+msgstr "Rutnätslager"
+
+#: src/uc2/formats/sk2/sk2_cids.py:70
+msgid "Guide layer"
+msgstr "Stödlinjelager"
+
+#: src/uc2/formats/sk2/sk2_cids.py:71
+msgid "Desktop layers"
+msgstr "Arbetsytelager"
+
+#: src/uc2/formats/sk2/sk2_cids.py:73
+msgid "Container"
+msgstr "Behållare"
+
+#: src/uc2/formats/sk2/sk2_cids.py:74
+msgid "Text on Path Group"
+msgstr "Grupp med text på bana"
+
+#: src/uc2/formats/sk2/sk2_cids.py:78
+msgid "Text block"
+msgstr "Textblock"
+
+#: src/uc2/formats/sk2/sk2_cids.py:78
+msgid "Text column"
+msgstr "Textkolumn"
